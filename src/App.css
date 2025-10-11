@@ -21,6 +21,7 @@
     background: url("../src/assets/school1.jpg");
     background-position: center center;
     background-size: cover;
+    border-bottom: 2px solid white;
 }
 /* .hero:hover{
     display: flex;
@@ -89,8 +90,9 @@
 
 .sec2{
     display: flex;
-    height: 70vh;
+    height: 50vh;
     width: 100%;
+    border-bottom: 2px solid white;
     /* background-color: blue; */
 }
 .sec2-txt{
@@ -110,7 +112,7 @@
 }
 .sec2-txt p{
     width: 80%;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     text-align: center;
 }
@@ -126,9 +128,44 @@
     object-fit: cover;
 }
 .sec3{
+    display: flex;
+    flex-direction: row-reverse;
     height: 60vh;
     width: 100%;
+    border-bottom: 2px solid white;
     /* background-color: aqua; */
+}
+.sec3-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* background-color: aqua; */
+    background: rgba(23, 0, 0, 0.4);
+    gap: 20px;
+}
+.sec3-txt h1{
+    font-size: 50px;
+    font-weight: 600;
+    /* text-align: center; */
+}
+.sec3-txt p{
+    width: 80%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+}
+.sec3-img{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    /* background-color: red; */
+}
+.sec3-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 @media(width<=800px){
@@ -202,6 +239,7 @@
         width: 90%;
         font-weight: 600;
         text-align: center;
+        line-height: 1.1;
     }
     .sec2-txt p{
         width: 100%;
@@ -212,6 +250,44 @@
         /* background-color: aqua; */
     }
     .sec2-img{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-color: red;
+    }
+    .sec3{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .sec3-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+        /* background-color: aqua; */
+        background: rgba(23, 0, 0, 0.3);
+        gap: 5px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .sec3-txt h1{
+        font-size: 39px;
+        /* background-color: aqua; */
+        width: 90%;
+        font-weight: 600;
+        text-align: center;
+    }
+    .sec3-txt p{
+        width: 100%;
+        font-weight: 500;
+        font-size: 17px;
+        text-align: left;
+        width: 95%;
+        /* background-color: aqua; */
+    }
+    .sec3-img{
         display: flex;
         height: 100%;
         width: 100%;

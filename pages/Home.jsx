@@ -1,10 +1,34 @@
-import React from 'react'
+import React,{ useState, useEffect } from 'react'
 import "../src/App.css"
 import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
 import school2 from '../src/assets/school2.jpg'
 
 const Home = () => {
+  const images = [
+    "../src/assets/school1.jpg",
+    "../src/assets/classkids2.jpg",
+    "../src/assets/library.jpg",
+  ];
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex(prev =>
+        prev === images.length - 1 ? 0 : prev + 1
+      );
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [images.length]);
+
+    // const backgroundStyle = {
+    //   background: `url(${images[currentIndex]})`,
+    //   backgroundSize: 'cover',
+    //   backgroundPosition: 'center center',
+    //   transition: 'background 0.5s ease-in-out',
+    // };
+
   return (
     <div>
       <div className='navmob1'>
@@ -14,9 +38,17 @@ const Home = () => {
       <div className='sec1'>
 
       </div>
-      <div  className='hero'>
+      <div 
+      // style={{background:`url(${images[currentIndex]})`,
+      //             height: '100vh',
+      //             width: '100%',
+      //             backgroundSize: 'cover',
+      //             backgroundRepeat: 'no-repeat',
+      //             backgroundPosition: 'center center',
+      //             transition: '0.5s',}} 
+                  className='hero'>
         <div className='hero1'>
-            <h1>HEROES ACADEMY</h1>
+            <h1>HEROES PINNACLE SCHOOLS</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor. Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.
 
@@ -33,9 +65,14 @@ const Home = () => {
         </div>
       <div className='sec2'>
           <div className='sec2-txt'>
-              <h1>Why Choose Heroes Pinnacle?</h1>
+              <h1>WHY CHOOSE HEROES ?</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor. Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.
+                At Heroes International Academy, we place emphasis on purposeful learning. This educational model offers your child numerous benefits for growth and development:
+                -- Individual Attention 
+                -- Critical Thinking 
+                -- Values and Character Development 
+                -- Strong sense of Community
+                -- Improved Grades 
               </p>
           </div>
           <div className='sec2-img'>
@@ -43,7 +80,27 @@ const Home = () => {
           </div>
       </div>
       <div className='sec3'>
-
+            <div className='sec3-txt'>
+              <h1>OUR UNIQUE STYLE</h1>
+              <p>
+                -- God Factor - We have a mandate to raise Godly Seeds, Kindom Army, the Next True Heroes with the Spirit of Excellent
+              </p>
+              <p>
+                -- Excellent Teachers
+              </p>
+              <p>
+                -- Great Learning Tools
+              </p>
+              <p>
+                -- Support Groups
+              </p>
+              <p>
+                -- Exciting Learning Environment
+              </p>
+          </div>
+          <div className='sec3-img'>
+              <img src={school2} alt="" />
+          </div>
       </div>
     </div>
   )
