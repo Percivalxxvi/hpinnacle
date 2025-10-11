@@ -33,7 +33,7 @@ const Home = () => {
         </div>
       <div className='sec2'>
           <div className='sec2-txt'>
-              <h1>Why Choose Heroes?</h1>
+              <h1>Why Choose Heroes Pinnacle?</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor. Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.
               </p>
