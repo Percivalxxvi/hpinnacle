@@ -2,6 +2,7 @@ import React from 'react'
 import './Contact.css'
 import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
+import Footer from '../components/Footer'
 
 const Contact = () => {
   return (
@@ -18,6 +19,7 @@ const Contact = () => {
 
             </div>
       </div>
+      <Footer/>
     </div>
   )
 }

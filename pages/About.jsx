@@ -3,6 +3,7 @@ import "./About.css"
 import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
 import school2 from '../src/assets/school2.jpg'
+import Footer from '../components/Footer'
 
 const About = () => {
   return (
@@ -50,6 +51,7 @@ const About = () => {
               </div>
           </div>
       </div>
+      <Footer/>
     </div>
   )
 }

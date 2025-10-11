@@ -167,6 +167,14 @@
     width: 100%;
     object-fit: cover;
 }
+.sec4{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 60vh;
+    width: 100%;
+    border-bottom: 2px solid white;
+    /* background-color: aqua; */
+}
 
 @media(width<=800px){
     .navmob1{
@@ -185,6 +193,7 @@
     }
     .hero{
         height: 30vh;
+        border-bottom: 0px solid white;
     }
     .hero1{
         padding-bottom: 20px;
@@ -205,6 +214,7 @@
         display: flex;
         height: fit-content;
         background: rgba(23, 0, 0, 0.4);
+        border-bottom: 2px solid white;
         /* background-color: aqua; */
     }
     .mobhero p{

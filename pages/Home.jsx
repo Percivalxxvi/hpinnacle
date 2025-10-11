@@ -3,6 +3,7 @@ import "../src/App.css"
 import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
 import school2 from '../src/assets/school2.jpg'
+import Footer from '../components/Footer'
 
 const Home = () => {
   const images = [
@@ -102,6 +103,10 @@ const Home = () => {
               <img src={school2} alt="" />
           </div>
       </div>
+      <div className='sec4'>
+
+      </div>
+      <Footer/>
     </div>
   )
 }
