@@ -1,0 +1,157 @@
+.about1{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    /* background-color: purple; */
+    background: rgba(23, 0, 0, 0.4);
+}
+.abt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65vh;
+    background-color: chartreuse;
+    gap: 50px;
+}
+.abt1-img{
+    margin-left: 50px;
+    background-color: aqua;
+    height: 80%;
+    width: 35%;
+}
+.abt1-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.abt1-txt{
+    width: 50%;
+}
+.abt1-txt h1{
+    font-size: 50px;
+}
+.abt1-txt p{
+    font-size: 22px;
+}
+.abt2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 90%;
+    height: 60vh;
+    background-color: red;
+}
+.abt2-img{
+    margin-left: 50px;
+    background-color: aqua;
+    height: 80%;
+    width: 25%;
+    border: 5px solid yellow;
+}
+.abt2-txt{
+    width: 50%;
+}
+.abt2-txt h1{
+    font-size: 30px;
+}
+.abt2-txt p{
+    font-size: 20px;
+}
+.abt3{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 90%;
+    height: 60vh;
+    margin-left: 152px;
+    background-color: blue;
+}
+.abt3-img{
+    margin-left: 50px;
+    background-color: aqua;
+    height: 80%;
+    width: 25%;
+    border: 5px solid yellow;
+}
+.abt3-txt{
+    width: 50%;
+}
+.abt3-txt h1{
+    font-size: 30px;
+    text-align: right;
+}
+.abt3-txt p{
+    font-size: 20px;
+    text-align: right;
+}
+
+@media(width<=800px){
+    .sec1{
+        display: flex;
+        height: 11.2vh;
+        width: 100%;
+        /* background-color: blue; */
+    }
+    .abt1{
+        flex-direction: column;
+        height: fit-content;
+        gap: 15px;
+    }
+    .abt1-img{
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 90%;
+    }
+    .abt1-txt{
+        width: 90%;
+    }
+    .abt1-txt h1{
+        font-size: 30px;
+    }
+    .abt1-txt p{
+        font-size: 15px;
+    }
+    .abt2{
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        gap: 20px;
+    }
+    .abt2-img{
+        margin-top: 10px;
+        margin-left: -55px;
+        height: 250px;
+        width: 75%;
+    }
+    .abt2-txt{
+        width: 95%;
+    }
+    .abt2-txt p{
+        font-size: 15px;
+    }
+     .abt3{
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        margin-left: 0px;
+        gap: 20px;
+    }
+    .abt3-img{
+        /* justify-self: right; */
+        margin-top: 10px;
+        margin-left: 55px;
+        height: 250px;
+        width: 75%;
+    }
+    .abt3-txt{
+        width: 95%;
+    }
+    .abt3-txt p{
+        font-size: 15px;
+    }
+}

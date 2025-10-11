@@ -1,0 +1,58 @@
+.navpc{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    background: rgba(237, 237, 237, 0.8);
+    /* background: rgba(62, 119, 66, 0.8); */
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    gap: 30px;
+    margin-top: 30px;
+}
+.navpc-logo{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navpc-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.navpc-pgs{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    /* background-color: cadetblue; */
+    height: 100%;
+    align-items: center;
+}
+.navpc-pgs1{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    padding: 5px;
+    transition: 0.3s;
+}
+.navpc-pgs1:hover{
+    transform: scale(1.15);
+    background-color: blue;
+    background: rgba(237, 237, 237, 0.8);
+    transition: 0.3s;
+}
+
+@media(width<=800px){
+    .navpc{
+        display: none;
+    }
+}
