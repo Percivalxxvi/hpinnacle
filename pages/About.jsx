@@ -2,6 +2,7 @@ import React from 'react'
 import "./About.css"
 import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
+import school2 from '../src/assets/school2.jpg'
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
       <div className='about1'>
           <div className='abt1'>
               <div className='abt1-img'>
-                <img src="../src/assets/school2.jpg" alt="" />
+                <img src={school2} alt="" />
               </div>
               <div className='abt1-txt'>
                 <h1>About the School</h1>
