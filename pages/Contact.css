@@ -4,4 +4,46 @@
     height: 100vh;
     width:100%;
     background-color: red;
+    background-color: #3e7742;
+}
+.cnt1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+.cnt1 h1{
+    font-size: 45px;
+    color: white;
+}
+.cnt1a{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 100px; */
+    height: 80%;
+    width: 80%;
+    background-color: tomato;
+    background: rgba(237, 237, 237, 0.2);
+    background-color: #3e7742;
+}
+
+@media(width<=800px){
+    .cnt1{
+        height: fit-content;
+    }
+    .cnt1 h1{
+        font-size: 35px;
+        color: white;
+    }
+    .cnt1a{
+        flex-direction: column;
+        height: fit-content;
+        gap: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }

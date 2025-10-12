@@ -5,8 +5,8 @@ import logo2 from '../src/assets/logo2.png'
 
 const Navpc = ({page}) => {
     const [menu,setMenu]=useState(false)
-    const[menu1,setMenu1]=useState(false)
-    const[menu2,setMenu2]=useState(false)
+    const [menu1,setMenu1]=useState(false)
+    const [menu2,setMenu2]=useState(false)
   return (
     <div className='navpc'>
         <div className='navpc-logo'>

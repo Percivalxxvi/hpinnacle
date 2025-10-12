@@ -5,6 +5,7 @@
     background-color: #3e7742;
     align-items: center;
     justify-content: space-between;
+    border-top: 2px solid white;
 }
 .footer h1{
     font-size: 15px;

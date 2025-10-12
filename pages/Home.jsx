@@ -69,12 +69,12 @@ const Home = () => {
               <h1>WHY CHOOSE HEROES ?</h1>
               <p>
                 At Heroes International Academy, we place emphasis on purposeful learning. This educational model offers your child numerous benefits for growth and development:
-                -- Individual Attention 
-                -- Critical Thinking 
-                -- Values and Character Development 
-                -- Strong sense of Community
-                -- Improved Grades 
               </p>
+              <p>-- Individual Attention </p>
+              <p>-- Critical Thinking </p>
+              <p>-- Values and Character Development</p>
+              <p>-- Strong sense of Community</p>
+              <p>-- Improved Grades </p>
           </div>
           <div className='sec2-img'>
               <img src={school2} alt="" />
