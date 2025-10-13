@@ -36,6 +36,7 @@
         height: fit-content;
     }
     .cnt1 h1{
+        margin-top: 15px;
         font-size: 35px;
         color: white;
     }
