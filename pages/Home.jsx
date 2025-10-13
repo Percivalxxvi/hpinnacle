@@ -68,7 +68,7 @@ const Home = () => {
                   className='hero'>
                     {/* <FadeSlider/> */}
                     {/* <Fade/> */}
-                              <div style={{width:'100%', backgroundColor:'cyan',zIndex:'1', position:'relative',height:'0px'}}>
+                              {/* <div style={{width:'100%', backgroundColor:'cyan',zIndex:'1', position:'relative',height:'0px'}}>
       <Slider {...settings}>
         <div style={{height:'30%', width:'100%', backgroundColor:'blue'}} >
           <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="../src/assets/school1.jpg" />
@@ -80,7 +80,7 @@ const Home = () => {
           <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="../src/assets/library.jpg" />
         </div>
       </Slider>
-    </div>
+    </div> */}
         <div className='hero1'>
   
             <h1>HEROES PINNACLE SCHOOLS</h1>
