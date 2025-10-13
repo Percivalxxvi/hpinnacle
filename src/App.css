@@ -18,9 +18,9 @@
     width: 100%;
     /* background-color: red; */
     transition: 5s;
-    /* background: url("../src/assets/school1.jpg");
+    background: url("../src/assets/school1.jpg");
     background-position: center center;
-    background-size: cover; */
+    background-size: cover;
     border-bottom: 2px solid white;
 }
 .hero1{

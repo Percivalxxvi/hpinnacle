@@ -5,6 +5,7 @@ import Navmob from '../components/Navmob'
 import school2 from '../src/assets/school2.jpg'
 import Footer from '../components/Footer'
 import FadeSlider from '../components/FadeSlider'
+import Fade from '../components/Fade'
 
 const Home = () => {
   // const images = [
@@ -50,6 +51,7 @@ const Home = () => {
       //             transition: '0.5s',}} 
                   className='hero'>
                     <FadeSlider/>
+                    {/* <Fade/> */}
         <div className='hero1'>
             <h1>HEROES PINNACLE SCHOOLS</h1>
             <p>
