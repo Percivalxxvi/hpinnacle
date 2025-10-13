@@ -50,7 +50,7 @@ const Home = () => {
       //             backgroundPosition: 'center center',
       //             transition: '0.5s',}} 
                   className='hero'>
-                    <FadeSlider/>
+                    {/* <FadeSlider/> */}
                     {/* <Fade/> */}
         <div className='hero1'>
             <h1>HEROES PINNACLE SCHOOLS</h1>
