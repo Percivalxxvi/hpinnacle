@@ -29,16 +29,19 @@ const Contact = () => {
                     <Cnct image={phone}
                     txt={'Phone Number'}
                     txt2={'07033502124'}
+                    txt3={'08121137637'}
                      />
                     <Cnct image={mappin}
                     txt={'School Address'}
-                    txt2={''}/>
+                    txt2={'Plot 5, Abba Father Estate Phase 1, Opp Redemption Camp, Estate 15, Ogun State'}/>
                     <Cnct image={mail}
                     txt={'Email'}
-                    txt2={'07033502124'}/>
+                    txt2={'pinnacle@mail.com'}/>
                 </div>
-                {/* <Hotel size={64}/> */}
             </div>
+      </div>
+      <div className='cnt2'>
+
       </div>
       <Footer/>
     </div>

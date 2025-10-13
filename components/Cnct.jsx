@@ -2,12 +2,8 @@ import React, { useState } from 'react'
 import './Cnct.css'
 
 
-const Cnct = ({image,txt,txt2}) => {
+const Cnct = ({image,txt,txt2,txt3}) => {
     const [flip,setFlip]=useState(false)
-    const imageStyle = {
-    transition: 'transform 0.5s ease',
-    // transform: isRotated ? 'rotate(360deg)' : 'rotate(0deg)',
-  }
   return (
     <div 
     onMouseEnter={()=>setFlip(true)} 
@@ -18,6 +14,7 @@ const Cnct = ({image,txt,txt2}) => {
         </div>
         <h2>{txt}</h2>
         <h1>{txt2}</h1>
+        <h1>{txt3}</h1>
     </div>
   )
 }
