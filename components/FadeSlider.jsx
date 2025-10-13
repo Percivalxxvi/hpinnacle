@@ -27,7 +27,7 @@ const FadeSlider = () => {
   return (
     <div className="slider-container">
       <img
-        src={images[currentIndex]}
+        src={`Slide ${images[currentIndex]}`}
         alt={`Slide ${currentIndex + 1}`}
         className={`fade-image ${fade ? 'fade-in' : 'fade-out'}`}
       />
