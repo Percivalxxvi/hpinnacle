@@ -19,7 +19,7 @@ const Navpc = ({page}) => {
             <Link to={'/about'} onMouseEnter={()=>setMenu1(true)} onMouseLeave={()=>setMenu1(false)} style={{backgroundColor:page==="about" ? "#3e7742" : "",color:page==="about" ? "#f0f0f0":"", transform:page!=="about" && menu1===true ? 'scale(1.15)':'scale(1)'}} className='navpc-pgs1'>About</Link>
             <Link to={'/contact'} onMouseEnter={()=>setMenu2(true)} onMouseLeave={()=>setMenu2(false)} style={{backgroundColor:page==="contact" ? "#3e7742" : "",color:page==="contact" ? "#f0f0f0":"", transform:page!=="contact" && menu2===true ? 'scale(1.15)':'scale(1)'}} className='navpc-pgs1'>Contact Us</Link>
             <Link to={'/news'} onMouseEnter={()=>setMenu3(true)} onMouseLeave={()=>setMenu3(false)} style={{backgroundColor:page==="news" ? "#3e7742" : "",color:page==="news" ? "#f0f0f0":"", transform:page!=="news" && menu3===true ? 'scale(1.15)':'scale(1)'}} className='navpc-pgs1'>News</Link>
-            <Link to={'/news'} onMouseEnter={()=>setMenu4(true)} onMouseLeave={()=>setMenu4(false)} style={{backgroundColor:page==="events" ? "#3e7742" : "",color:page==="events" ? "#f0f0f0":"", transform:page!=="events" && menu4===true ? 'scale(1.15)':'scale(1)'}} className='navpc-pgs1'>Events</Link>
+            <Link to={'/events'} onMouseEnter={()=>setMenu4(true)} onMouseLeave={()=>setMenu4(false)} style={{backgroundColor:page==="events" ? "#3e7742" : "",color:page==="events" ? "#f0f0f0":"", transform:page!=="events" && menu4===true ? 'scale(1.15)':'scale(1)'}} className='navpc-pgs1'>Events</Link>
             <Link className='navpc-pgs1'>????????????</Link>
         </div>
        
