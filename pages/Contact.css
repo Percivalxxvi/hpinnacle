@@ -28,7 +28,6 @@
     /* gap: 100px; */
     height: 80%;
     width: 80%;
-    
     background-color: tomato;
     background: rgba(237, 237, 237, 0.2);
     background-color: #3e7742;
@@ -44,11 +43,12 @@
     .contact1{
         justify-content:flex-start;
         height: fit-content;
+        /* background-color: purple; */
     }
     .cnt1{
         /* background-color: red; */
         height: fit-content;
-        padding-bottom: 95px;
+        padding-bottom: 35px;
     }
     .cnt1 h1{
         margin-top: 15px;
@@ -60,7 +60,7 @@
         flex-direction: column;
         height: fit-content;
         gap: 30px;
-        padding-bottom: 15px;
+        padding-bottom: -35px;
     }
     .cnt2{
         height: 40vh;
