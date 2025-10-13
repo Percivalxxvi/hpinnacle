@@ -7,6 +7,10 @@ import Footer from '../components/Footer'
 import FadeSlider from '../components/FadeSlider'
 import Fade from '../components/Fade'
 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const Home = () => {
   // const images = [
   //   "../src/assets/school1.jpg",
@@ -14,6 +18,18 @@ const Home = () => {
   //   "../src/assets/library.jpg",
   // ];
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const settings = {
+    dots: false,
+    fade: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    waitForAnimate: false,
+    arrows: false,
+    autoplay:true
+  };
 
   // useEffect(() => {
   //   const interval = setInterval(() => {
@@ -52,7 +68,21 @@ const Home = () => {
                   className='hero'>
                     {/* <FadeSlider/> */}
                     {/* <Fade/> */}
+                              <div style={{width:'100%', backgroundColor:'cyan',zIndex:'1', position:'relative',height:'0px'}}>
+      <Slider {...settings}>
+        <div style={{height:'30%', width:'100%', backgroundColor:'blue'}} >
+          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="../src/assets/school1.jpg" />
+        </div>
+        <div style={{height:'30%', width:'100%', backgroundColor:'blue'}}>
+          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="../src/assets/school2.jpg" />
+        </div>
+        <div style={{height:'30%', width:'100%', backgroundColor:'blue'}}>
+          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="../src/assets/library.jpg" />
+        </div>
+      </Slider>
+    </div>
         <div className='hero1'>
+  
             <h1>HEROES PINNACLE SCHOOLS</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor. Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.

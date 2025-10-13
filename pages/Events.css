@@ -1,4 +1,4 @@
-.news{
+.events{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     width: 100%;
     background-color: #3e7742;
 }
-.news2{
+.events2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,22 +15,22 @@
     background-color: purple;
     background: rgba(237, 237, 237, 0.8);
 }
-.news2 h1{
+.events2 h1{
     font-size: 80px;
     color: #3e7742;
 }
 
 @media(width<=800px){
-    .news{
+    .events{
         height: 70vh;
     }
-    .news2{
+    .events2{
         height: fit-content;
         width: 90%;
     }
-    .news2 h1{
-        width: 80%;
+    .events2 h1{
         font-size: 60px;
+        width: 80%;
         text-align: center;
     }
 }

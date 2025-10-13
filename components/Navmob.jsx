@@ -20,7 +20,8 @@ const Navmob = () => {
             <Link to={'/'} className='navmob-pgs1'>Home</Link>
             <Link to={'/about'} className='navmob-pgs1'>About Us</Link>
             <Link to={'/contact'} className='navmob-pgs1'>Contact Us</Link>
-            <Link className='navmob-pgs1'>News & Events</Link>
+            <Link to={'/news'} className='navmob-pgs1'>News</Link>
+            <Link to={'/events'} className='navmob-pgs1'>Events</Link>
             <Link className='navmob-pgs1'>????????????</Link>
         </div>       
     </div>

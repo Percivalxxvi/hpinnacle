@@ -5,8 +5,8 @@
     width: 100%;
     /* background-color: red; */
     background: rgba(237, 237, 237, 0.8);
-    /* position: fixed; */
-    z-index: 200;
+    position: relative;
+    z-index: 500;
     align-items: center;
     justify-content:right;
     /* padding-left: 50px; */
