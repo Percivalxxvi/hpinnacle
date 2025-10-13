@@ -4,24 +4,25 @@ import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
 import school2 from '../src/assets/school2.jpg'
 import Footer from '../components/Footer'
+import FadeSlider from '../components/FadeSlider'
 
 const Home = () => {
-  const images = [
-    "../src/assets/school1.jpg",
-    "../src/assets/classkids2.jpg",
-    "../src/assets/library.jpg",
-  ];
+  // const images = [
+  //   "../src/assets/school1.jpg",
+  //   "../src/assets/classkids2.jpg",
+  //   "../src/assets/library.jpg",
+  // ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex(prev =>
-        prev === images.length - 1 ? 0 : prev + 1
-      );
-    }, 3000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentIndex(prev =>
+  //       prev === images.length - 1 ? 0 : prev + 1
+  //     );
+  //   }, 3000);
 
-    return () => clearInterval(interval);
-  }, [images.length]);
+  //   return () => clearInterval(interval);
+  // }, [images.length]);
 
     // const backgroundStyle = {
     //   background: `url(${images[currentIndex]})`,
@@ -48,6 +49,7 @@ const Home = () => {
       //             backgroundPosition: 'center center',
       //             transition: '0.5s',}} 
                   className='hero'>
+                    <FadeSlider/>
         <div className='hero1'>
             <h1>HEROES PINNACLE SCHOOLS</h1>
             <p>
