@@ -3,6 +3,7 @@ import "../src/App.css"
 import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
 import school2 from '../src/assets/school2.jpg'
+import school3 from '../src/assets/school2.jpg'
 import Footer from '../components/Footer'
 import FadeSlider from '../components/FadeSlider'
 import Fade from '../components/Fade'
@@ -57,7 +58,7 @@ const Home = () => {
       <div className='sec1'>
 
       </div>
-      <div 
+      <div //hero slideshow
       // style={{background:`url(${images[currentIndex]})`,
       //             height: '100vh',
       //             width: '100%',
@@ -104,11 +105,11 @@ const Home = () => {
               <p>
                 At Heroes International Academy, we place emphasis on purposeful learning. This educational model offers your child numerous benefits for growth and development:
               </p>
-              <p>-- Individual Attention </p>
-              <p>-- Critical Thinking </p>
-              <p>-- Values and Character Development</p>
-              <p>-- Strong sense of Community</p>
-              <p>-- Improved Grades </p>
+              <p>• Individual Attention </p>
+              <p>• Critical Thinking </p>
+              <p>• Values and Character Development</p>
+              <p>• Strong sense of Community</p>
+              <p>• Improved Grades </p>
           </div>
           <div className='sec2-img'>
               <img src={school2} alt="" />
@@ -118,19 +119,19 @@ const Home = () => {
             <div className='sec3-txt'>
               <h1>OUR UNIQUE STYLE</h1>
               <p>
-                -- God Factor - We have a mandate to raise Godly Seeds, Kindom Army, the Next True Heroes with the Spirit of Excellent
+                • God Factor - We have a mandate to raise Godly Seeds, Kindom Army, the Next True Heroes with the Spirit of Excellent
               </p>
               <p>
-                -- Excellent Teachers
+                • Excellent Teachers
               </p>
               <p>
-                -- Great Learning Tools
+                • Great Learning Tools
               </p>
               <p>
-                -- Support Groups
+                • Support Groups
               </p>
               <p>
-                -- Exciting Learning Environment
+                • Exciting Learning Environment
               </p>
           </div>
           <div className='sec3-img'>
@@ -138,7 +139,50 @@ const Home = () => {
           </div>
       </div>
       <div className='sec4'>
+          <div className='sec4-txt'>
+              <h1>Academic Excellence!</h1>
+                      <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor. Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.
 
+              Maecenas euismod mattis dapibus. Nullam at tortor non urna efficitur dignissim vel nec erat. Fusce rhoncus cursus eros vel blandit. Vestibulum sapien mi, condimentum sed odio at, condimentum imperdiet lorem. Vestibulum nec egestas leo, et ultrices elit. Sed pharetra eros non dui pretium, sit amet suscipit risus fermentum. Ut urna nibh, vulputate non mi vel, luctus venenatis libero. Maecenas interdum fermentum odio et ornare. Proin non iaculis lectus. Morbi a arcu risus. Duis convallis, urna eu scelerisque porttitor, ante nisi lobortis neque, quis aliquet tellus risus quis metus. Aliquam erat volutpat. In aliquam orci vel sapien iaculis placerat. Cras ac lorem urna.
+            </p>
+          </div>
+          
+          <div className='sec4-img'>
+            <img src={school2} alt="" />
+          </div>
+      </div>
+      <div className='facilities'>
+          <div className='facilities1'>
+            <h1>OUR FACILITIES</h1>
+          </div>
+          <div className='facil-imgs'>
+            <div className='facil-imgtxt'>
+                <h1>Computer Lab</h1>
+                <div className='facil-img'>             
+                  <img src={school3} alt="" />
+              </div>
+            </div>
+             <div className='facil-imgtxt'>
+                <h1>Science Lab</h1>
+                <div className='facil-img'>             
+                  <img src={school3} alt="" />
+              </div>
+            </div>
+             <div className='facil-imgtxt'>
+                <h1>Computer Lab</h1>
+                <div className='facil-img'>             
+                  <img src={school3} alt="" />
+              </div>
+            </div>
+            
+            {/* <div className='sec5-img'>
+              <img src={school3} alt="" />
+            </div>
+            <div className='sec5-img'>
+              <img src={school3} alt="" />
+            </div> */}
+          </div>
       </div>
       <Footer/>
     </div>
