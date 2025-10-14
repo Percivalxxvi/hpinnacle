@@ -12,11 +12,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Home = () => {
-  // const images = [
-  //   "../src/assets/school1.jpg",
-  //   "../src/assets/classkids2.jpg",
-  //   "../src/assets/library.jpg",
-  // ];
+  const images = [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPjY2BmRH4G1Tu2kPScbhExHPNoVw6tO8FQ&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1hsT6DLYHtSRxBysrLfnUP1cM1eqsrbWzQ&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrw_6IbimmhEjmSp1X3vOJfLFOo1fJhuOB3w&s",
+  ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const settings = {
@@ -68,19 +68,19 @@ const Home = () => {
                   className='hero'>
                     {/* <FadeSlider/> */}
                     {/* <Fade/> */}
-                              {/* <div style={{width:'100%', backgroundColor:'cyan',zIndex:'1', position:'relative',height:'0px'}}>
+                           <div style={{width:'100%', backgroundColor:'cyan',zIndex:'1', position:'relative',height:'0px'}}>
       <Slider {...settings}>
         <div style={{height:'30%', width:'100%', backgroundColor:'blue'}} >
-          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="../src/assets/school1.jpg" />
+          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPjY2BmRH4G1Tu2kPScbhExHPNoVw6tO8FQ&s" />
         </div>
         <div style={{height:'30%', width:'100%', backgroundColor:'blue'}}>
-          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="../src/assets/school2.jpg" />
+          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1hsT6DLYHtSRxBysrLfnUP1cM1eqsrbWzQ&s" />
         </div>
         <div style={{height:'30%', width:'100%', backgroundColor:'blue'}}>
-          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="../src/assets/library.jpg" />
+          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrw_6IbimmhEjmSp1X3vOJfLFOo1fJhuOB3w&s" />
         </div>
       </Slider>
-    </div> */}
+    </div> 
         <div className='hero1'>
   
             <h1>HEROES PINNACLE SCHOOLS</h1>
