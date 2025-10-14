@@ -415,6 +415,7 @@
         text-align: justify;
     }
     .facilities{
+        margin-top: -5px;
         height: fit-content;
     }
     .facilities1 h1{
