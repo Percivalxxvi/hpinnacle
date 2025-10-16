@@ -2,6 +2,7 @@ import React from 'react'
 import './News.css'
 import Navmob from '../components/Navmob'
 import Navpc from '../components/Navpc'
+import Footer from '../components/Footer'
 
 const News = () => {
   return (
@@ -18,7 +19,7 @@ const News = () => {
               <h1>STAY TUNED FOR NEWS</h1>
           </div>
       </div>
-      
+      <Footer/>
     </div>
   )
 }

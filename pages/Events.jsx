@@ -2,6 +2,7 @@ import React from 'react'
 import './Events.css'
 import Navmob from '../components/Navmob'
 import Navpc from '../components/Navpc'
+import Footer from '../components/Footer'
 
 const Events = () => {
   return (
@@ -18,6 +19,7 @@ const Events = () => {
               <h1>STAY TUNED FOR EVENTS</h1>
           </div>
       </div>
+      <Footer/>
     </div>
   )
 }
