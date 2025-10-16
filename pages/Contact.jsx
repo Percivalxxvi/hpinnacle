@@ -40,9 +40,9 @@ const Contact = () => {
                 </div>
             </div>
       </div>
-      <div className='cnt2'>
+      {/* <div className='cnt2'>
 
-      </div>
+      </div> */}
       <Footer/>
     </div>
   )

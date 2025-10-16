@@ -22,7 +22,7 @@ const Navmob = () => {
             <Link to={'/contact'} className='navmob-pgs1'>Contact Us</Link>
             <Link to={'/news'} className='navmob-pgs1'>News</Link>
             <Link to={'/events'} className='navmob-pgs1'>Events</Link>
-            <Link className='navmob-pgs1'>????????????</Link>
+            {/* <Link className='navmob-pgs1'>????????????</Link> */}
         </div>       
     </div>
   )

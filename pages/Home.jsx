@@ -11,6 +11,7 @@ import Fade from '../components/Fade'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Homeslide from '../components/Homeslide'
 
 const Home = () => {
   const images = [
@@ -58,40 +59,7 @@ const Home = () => {
       <div className='sec1'>
 
       </div>
-      <div //hero slideshow
-      // style={{background:`url(${images[currentIndex]})`,
-      //             height: '100vh',
-      //             width: '100%',
-      //             backgroundSize: 'cover',
-      //             backgroundRepeat: 'no-repeat',
-      //             backgroundPosition: 'center center',
-      //             transition: '0.5s',}} 
-                  className='hero'>
-                    {/* <FadeSlider/> */}
-                    {/* <Fade/> */}
-                           <div style={{width:'100%', backgroundColor:'cyan',zIndex:'1', position:'relative',height:'0px'}}>
-      <Slider {...settings}>
-        <div style={{height:'30%', width:'100%', backgroundColor:'blue'}} >
-          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPjY2BmRH4G1Tu2kPScbhExHPNoVw6tO8FQ&s" />
-        </div>
-        <div style={{height:'30%', width:'100%', backgroundColor:'blue'}}>
-          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1hsT6DLYHtSRxBysrLfnUP1cM1eqsrbWzQ&s" />
-        </div>
-        <div style={{height:'30%', width:'100%', backgroundColor:'blue'}}>
-          <img style={{height:'80%', width:'100%',objectFit:'contain'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrw_6IbimmhEjmSp1X3vOJfLFOo1fJhuOB3w&s" />
-        </div>
-      </Slider>
-    </div> 
-        <div className='hero1'>
-  
-            <h1>HEROES PINNACLE SCHOOLS</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor. Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.
-
-              Maecenas euismod mattis dapibus. Nullam at tortor non urna efficitur dignissim vel nec erat. Fusce rhoncus cursus eros vel blandit. Vestibulum sapien mi, condimentum sed odio at, condimentum imperdiet lorem. Vestibulum nec egestas leo, et ultrices elit. Sed pharetra eros non dui pretium, sit amet suscipit risus fermentum. Ut urna nibh, vulputate non mi vel, luctus venenatis libero. Maecenas interdum fermentum odio et ornare. Proin non iaculis lectus. Morbi a arcu risus. Duis convallis, urna eu scelerisque porttitor, ante nisi lobortis neque, quis aliquet tellus risus quis metus. Aliquam erat volutpat. In aliquam orci vel sapien iaculis placerat. Cras ac lorem urna.
-            </p>
-        </div>
-      </div>
+      <Homeslide/>
       <div className='mobhero'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor. Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.
@@ -101,7 +69,7 @@ const Home = () => {
         </div>
       <div className='sec2'>
           <div className='sec2-txt'>
-              <h1>WHY CHOOSE HEROES ?</h1>
+              <h1>WHY CHOOSE HEROES?</h1>
               <p>
                 At Heroes International Academy, we place emphasis on purposeful learning. This educational model offers your child numerous benefits for growth and development:
               </p>

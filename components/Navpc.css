@@ -34,7 +34,7 @@
 .navpc-pgs{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
     /* background-color: cadetblue; */
     height: 100%;
     align-items: center;
