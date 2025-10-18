@@ -12,6 +12,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Homeslide from '../components/Homeslide'
+import TypewriterLoop from '../components/Typewriterhome'
+
 
 const Home = () => {
   const images = [

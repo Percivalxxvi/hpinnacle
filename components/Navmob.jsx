@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import "./Navmob.css"
-import { Squash as Hamburger } from 'hamburger-react'
+import { Sling as Hamburger } from 'hamburger-react'
 import { Link } from 'react-router-dom'
 import logo2 from '../src/assets/logo2.png'
 
@@ -14,7 +14,17 @@ const Navmob = () => {
         <div className='navmob1-logo'>
             <img src={logo2} alt="" />
         </div>
-            <Hamburger toggled={isOpen} toggle={setOpen} />
+            <div className='ham1'>
+                <h1 className='text-[10px] mt-[30px]'>Menu</h1>
+                <Hamburger toggled={isOpen}
+                 toggle={setOpen} 
+                 color="#3e7742" 
+                 label={"menu"}  
+                 size={35}
+                 rounded
+                 duration={0.9} />
+            </div>        
+            
         </div>
         <div  style={{display:isOpen ? "flex":"none"}} className='navmob-pgs'>
             <Link to={'/'} className='navmob-pgs1'>Home</Link>
