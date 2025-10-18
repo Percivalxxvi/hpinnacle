@@ -124,7 +124,8 @@
     .abt2-img{
         margin-top: 10px;
         margin-left: -55px;
-        height: 250px;
+        /* height: 250px; */
+        height:40vh;
         width: 75%;
     }
     .abt2-txt{
@@ -152,5 +153,92 @@
     }
     .abt3-txt p{
         font-size: 15px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1280px) {
+    .abt1,
+    .abt2{
+        flex-direction: row-reverse;
+        height: auto;
+        width: 100%;
+        gap: 25px;
+    }
+    .abt3{
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        gap: 25px;
+        margin-left: 0px;
+    }
+
+    .abt1-img,
+    .abt2-img,
+    .abt3-img {
+        width: 40%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+
+    .abt1-txt,
+    .abt2-txt,
+    .abt3-txt {
+        width: 55%;
+    }
+
+    .abt1-txt h1 {
+        font-size: 36px;
+    }
+
+    .abt1-txt p,
+    .abt2-txt p,
+    .abt3-txt p {
+        font-size: 16px;
+    }
+}
+
+/* Large screens (1281px – 1536px) */
+@media (min-width: 1281px) and (max-width: 1536px) {
+    .abt1,
+    .abt2{
+        flex-direction: row-reverse;
+        height: auto;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .abt3{
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        gap: 30px;
+        margin-left:0px;
+    }
+
+    .abt1-img,
+    .abt2-img,
+    .abt3-img {
+        width: 35%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .abt1-txt,
+    .abt2-txt,
+    .abt3-txt {
+        width: 60%;
+    }
+
+    .abt1-txt h1 {
+        font-size: 42px;
+    }
+
+    .abt1-txt p,
+    .abt2-txt p,
+    .abt3-txt p {
+        font-size: 18px;
     }
 }

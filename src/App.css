@@ -268,7 +268,7 @@
     object-fit: cover;
 }
 
-@media(width<=800px){
+@media(width<=1440px){
     .navmob1{
         display: flex;
         justify-content: center;

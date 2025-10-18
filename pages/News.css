@@ -18,6 +18,7 @@
 .news2 h1{
     font-size: 80px;
     color: #3e7742;
+    text-align: center;
 }
 
 @media(width<=800px){

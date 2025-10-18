@@ -39,7 +39,7 @@
     background: rgba(168, 164, 164, 0.8);
 }
 
-@media(width<=800px){
+@media(width<=1440px){
     .contact1{
         justify-content:flex-start;
         height: fit-content;

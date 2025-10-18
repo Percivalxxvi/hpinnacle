@@ -20,7 +20,7 @@
     color: #3e7742;
 }
 
-@media(width<=800px){
+@media(width<=1440px){
     .events{
         height: 70vh;
     }
