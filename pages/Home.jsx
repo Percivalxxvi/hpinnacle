@@ -54,13 +54,10 @@ const Home = () => {
 
   return (
     <div>
-      <div className='navmob1'>
+      
         <Navmob/>
-      </div>
+      
       <Navpc page="home"/>
-      <div className='sec1'>
-
-      </div>
       <Homeslide/>
       <div className='mobhero'>
             <p>
@@ -69,42 +66,42 @@ const Home = () => {
               Maecenas euismod mattis dapibus. Nullam at tortor non urna efficitur dignissim vel nec erat. Fusce rhoncus cursus eros vel blandit. Vestibulum sapien mi, condimentum sed odio at, condimentum imperdiet lorem. Vestibulum nec egestas leo, et ultrices elit. Sed pharetra eros non dui pretium, sit amet suscipit risus fermentum. Ut urna nibh, vulputate non mi vel, luctus venenatis libero. Maecenas interdum fermentum odio et ornare. Proin non iaculis lectus. Morbi a arcu risus. Duis convallis, urna eu scelerisque porttitor, ante nisi lobortis neque, quis aliquet tellus risus quis metus. Aliquam erat volutpat. In aliquam orci vel sapien iaculis placerat. Cras ac lorem urna.
             </p>
         </div>
-      <div className='sec2'>
-          <div className='sec2-txt'>
-              <h1>WHY CHOOSE HEROES?</h1>
-              <p>
+      <div className='flex flex-col lg:flex-row justify-center items-center'>
+          <div className='flex flex-col lg:w-2/4 justify-center w-[95%]'>
+              <h1 className='text-5xl text-center font-bold'>WHY CHOOSE HEROES?</h1>
+              <p className='text-[21px] font-semibold'>
                 At Heroes International Academy, we place emphasis on purposeful learning. This educational model offers your child numerous benefits for growth and development:
               </p>
-              <p>• Individual Attention </p>
-              <p>• Critical Thinking </p>
-              <p>• Values and Character Development</p>
-              <p>• Strong sense of Community</p>
-              <p>• Improved Grades </p>
+              <p className='text-[21px] font-semibold'>• Individual Attention </p>
+              <p className='text-[21px] font-semibold'>• Critical Thinking </p>
+              <p className='text-[21px] font-semibold'>• Values and Character Development</p>
+              <p className='text-[21px] font-semibold'>• Strong sense of Community</p>
+              <p className='text-[21px] font-semibold'>• Improved Grades </p>
           </div>
-          <div className='sec2-img'>
+          <div className='h-4/4 w-4/4 lg:w-2/4'>
               <img src={school2} alt="" />
           </div>
       </div>
-      <div className='sec3'>
-            <div className='sec3-txt'>
-              <h1>OUR UNIQUE STYLE</h1>
-              <p>
+      <div className='flex flex-col lg:flex-row justify-center items-center'>
+            <div className='flex flex-col lg:w-2/4 justify-center w-[95%]'>
+              <h1 className='text-5xl text-center font-bold'>OUR UNIQUE STYLE</h1>
+              <p className='text-[21px] font-semibold'>
                 • God Factor - We have a mandate to raise Godly Seeds, Kindom Army, the Next True Heroes with the Spirit of Excellent
               </p>
-              <p>
+              <p className='text-[21px] font-semibold'>
                 • Excellent Teachers
               </p>
-              <p>
+              <p className='text-[21px] font-semibold'>
                 • Great Learning Tools
               </p>
-              <p>
+              <p className='text-[21px] font-semibold'>
                 • Support Groups
               </p>
-              <p>
+              <p className='text-[21px] font-semibold'>
                 • Exciting Learning Environment
               </p>
           </div>
-          <div className='sec3-img'>
+          <div className='h-4/4 w-4/4 lg:w-2/4'>
               <img src={school2} alt="" />
           </div>
       </div>

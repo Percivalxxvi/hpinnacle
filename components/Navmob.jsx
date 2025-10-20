@@ -9,7 +9,7 @@ import logo2 from '../src/assets/logo2.png'
 const Navmob = () => {
     const [isOpen, setOpen] = useState(false)
   return (
-     <div className='navmob'>
+     <div className='flex lg:hidden flex-col items-center justify-between bg-[#EDEDEDCC] w-full shadow-md border-b-3 border-green-800 sticky top-0 z-50'>
         <div  className='ham'>   
         <div className='navmob1-logo'>
             <img src={logo2} alt="" />
