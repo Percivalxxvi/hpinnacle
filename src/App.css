@@ -79,7 +79,7 @@
 .navmob1{
     display: none;
     justify-content: center;
-    /* position: fixed; */
+    /* position: sticky; */
     width: 100%;
     height: fit-content;
     align-items: center;
@@ -326,7 +326,7 @@
         /* background-color: red; */
         /* margin-top: 100px; */
         position: relative;
-        z-index: 20;
+        z-index: -1;
         border-bottom: 2px solid gold;
     }
     .mobhero p{
