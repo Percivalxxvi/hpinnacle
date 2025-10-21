@@ -7,13 +7,11 @@ import Footer from '../components/Footer'
 const Events = () => {
   return (
     <div>
-        <div  className='navmob1'>
         <Navmob/>
+       <div  className='flex lg:hidden h-20'>
+        
       </div>
       <Navpc page="events"/>
-      <div className='sec1'>
-
-      </div>
       <div className='events'>        
           <div className='events2'>
               <h1>STAY TUNED FOR EVENTS</h1>
