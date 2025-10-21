@@ -18,7 +18,7 @@ const About = () => {
               <div className='lg:h-100 lg:w-200'>
                 <img className='lg:h-4/4 object-cover lg:w-200' src={school2} alt="" />
               </div>
-              <div className='lg:ml-10 lg:h-100 lg:w-2/4 flex flex-col items-center justify-evenly p-5 h-85'>
+              <div className='lg:ml-10 lg:h-100 lg:w-2/4 w-[95%] flex flex-col items-center justify-evenly p-5 h-85'>
                 <h1 className='text-4xl lg:text-6xl lg:text-left lg:w-[95%]'>About the School</h1>
                 <p className='text-justify ml-5 lg:w-[95%] lg:text-lg'>
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor. Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.
