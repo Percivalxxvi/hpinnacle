@@ -15,15 +15,13 @@ import { Hotel } from 'lucide-react'
 const Contact = () => {
   return (
     <div>
-      <div  className='navmob1'>
-          <Navmob/>
-      </div>
+        <Navmob/>
       <Navpc page="contact"/>
-      <div className='sec1'>
-
+      <div className='flex lg:hidden h-20'>
+          
       </div>
-      <div className='contact1'>
-            <div className='cnt1'>
+      <div className='flex flex-col items-center justify-center bg-[#3e7742] lg:h-screen'>
+            <div className='flex flex-col lg:flex-row items-center justify-center text-white cnt1'>
                 <h1>Get in Touch with Us</h1>
                 <div className='cnt1a'>
                     <Cnct image={phone}

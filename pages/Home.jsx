@@ -57,7 +57,7 @@ const Home = () => {
     <div>
       <Navmob/>
       <div className='flex lg:hidden h-20'>
-          {/* <Navmob/> */}
+          
       </div>
       <Navpc page="home"/>
       <Homeslide/>
@@ -88,7 +88,7 @@ const Home = () => {
             <div className='flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]'>
               <h1 className='text-5xl text-center font-semibold'>OUR UNIQUE STYLE</h1>
               <p className='text-[21px] lg:w-[95%] text-left'>
-                • God Factor - We have a mandate to raise Godly Seeds, Kindom Army, the Next True Heroes with the Spirit of Excellent
+                • God Factor - We have a mandate to raise Godly Seeds, Kindom Army, the Next True Heroes with the Spirit of Excellence
               </p>
               <p className='text-[21px] lg:w-[95%] text-left'>
                 • Excellent Teachers
