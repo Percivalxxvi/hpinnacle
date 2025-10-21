@@ -20,10 +20,10 @@ const Contact = () => {
       <div className='flex lg:hidden h-20'>
           
       </div>
-      <div className='flex flex-col items-center justify-center bg-[#3e7742] lg:h-screen'>
-            <div className='flex flex-col lg:flex-row items-center justify-center text-white cnt1'>
-                <h1>Get in Touch with Us</h1>
-                <div className='cnt1a'>
+      <div className='flex flex-col items-center justify-center bg-[#3e7742] lg:h-screen pt-5'>
+            <div className='flex flex-col items-center justify-center text-white gap-10 lg:w-[80%]'>
+                <h1 className='text-4xl mt-5'>Get in Touch with Us</h1>
+                <div className='flex flex-col lg:ml-20 lg:mt-0 mt-10 gap-8 lg:flex-row items-center'>
                     <Cnct image={phone}
                     txt={'Phone Number'}
                     txt2={'07033502124'}
