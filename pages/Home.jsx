@@ -54,84 +54,135 @@ const Home = () => {
     // };
 
   return (
-    <div className='flex flex-col gap-2 bg-gray-200'>
-      <Navmob/>
-      <div className='flex lg:hidden h-20'>
-          
+    <div className="flex flex-col gap-2 bg-gray-300 border-2 border-[gold]">
+      <Navmob />
+      <div className="flex lg:hidden h-20"></div>
+      <Navpc page="home" />
+      <Homeslide />
+      <div className="mobhero">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum
+          ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor.
+          Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas
+          at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur
+          vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor
+          libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor
+          ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et
+          ligula molestie rhoncus id in leo. Maecenas euismod mattis dapibus.
+          Nullam at tortor non urna efficitur dignissim vel nec erat. Fusce
+          rhoncus cursus eros vel blandit. Vestibulum sapien mi, condimentum sed
+          odio at, condimentum imperdiet lorem. Vestibulum nec egestas leo, et
+          ultrices elit. Sed pharetra eros non dui pretium, sit amet suscipit
+          risus fermentum. Ut urna nibh, vulputate non mi vel, luctus venenatis
+          libero. Maecenas interdum fermentum odio et ornare. Proin non iaculis
+          lectus. Morbi a arcu risus. Duis convallis, urna eu scelerisque
+          porttitor, ante nisi lobortis neque, quis aliquet tellus risus quis
+          metus. Aliquam erat volutpat. In aliquam orci vel sapien iaculis
+          placerat. Cras ac lorem urna.
+        </p>
       </div>
-      <Navpc page="home"/>
-      <Homeslide/>
-      <div className='mobhero'>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor. Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.
 
-              Maecenas euismod mattis dapibus. Nullam at tortor non urna efficitur dignissim vel nec erat. Fusce rhoncus cursus eros vel blandit. Vestibulum sapien mi, condimentum sed odio at, condimentum imperdiet lorem. Vestibulum nec egestas leo, et ultrices elit. Sed pharetra eros non dui pretium, sit amet suscipit risus fermentum. Ut urna nibh, vulputate non mi vel, luctus venenatis libero. Maecenas interdum fermentum odio et ornare. Proin non iaculis lectus. Morbi a arcu risus. Duis convallis, urna eu scelerisque porttitor, ante nisi lobortis neque, quis aliquet tellus risus quis metus. Aliquam erat volutpat. In aliquam orci vel sapien iaculis placerat. Cras ac lorem urna.
-            </p>
+      <div className="flex flex-col lg:flex-row justify-center items-center border-b-2 border-[gold]">
+        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]">
+          <h1 className="text-5xl text-center font-semibold">
+            WHY CHOOSE HEROES?
+          </h1>
+          <p className="text-[21px] lg:w-[95%] text-left">
+            At Heroes International Academy, we place emphasis on purposeful
+            learning. This educational model offers your child numerous benefits
+            for growth and development:
+          </p>
+          <p className="text-[21px] lg:w-[95%] text-left">
+            • Individual Attention{" "}
+          </p>
+          <p className="text-[21px] lg:w-[95%] text-left">
+            • Critical Thinking{" "}
+          </p>
+          <p className="text-[21px] lg:w-[95%] text-left">
+            • Values and Character Development
+          </p>
+          <p className="text-[21px] lg:w-[95%] text-left">
+            • Strong sense of Community
+          </p>
+          <p className="text-[21px] lg:w-[95%] text-left">• Improved Grades </p>
         </div>
-      <div className='flex flex-col lg:flex-row justify-center items-center border-b-2 border-[gold]'>
-          <div className='flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]'>
-              <h1 className='text-5xl text-center font-semibold'>WHY CHOOSE HEROES?</h1>
-              <p className='text-[21px] lg:w-[95%] text-left'>
-                At Heroes International Academy, we place emphasis on purposeful learning. This educational model offers your child numerous benefits for growth and development:
-              </p>
-              <p className='text-[21px] lg:w-[95%] text-left'>• Individual Attention </p>
-              <p className='text-[21px] lg:w-[95%] text-left'>• Critical Thinking </p>
-              <p className='text-[21px] lg:w-[95%] text-left'>• Values and Character Development</p>
-              <p className='text-[21px] lg:w-[95%] text-left'>• Strong sense of Community</p>
-              <p className='text-[21px] lg:w-[95%] text-left'>• Improved Grades </p>
-          </div>
-          <div className='h-4/4 w-4/4 lg:w-2/4'>
-              <img src={school2} alt="" />
-          </div>
+        <div className="h-4/4 w-4/4 lg:w-2/4">
+          <img src={school2} alt="" />
+        </div>
       </div>
-      <div className='flex flex-col lg:flex-row-reverse justify-center items-center border-b-2 border-[gold]'>
-            <div className='flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]'>
-              <h1 className='text-5xl text-center font-semibold'>OUR UNIQUE STYLE</h1>
-              <p className='text-[21px] lg:w-[95%] text-left'>
-                • God Factor - We have a mandate to raise Godly Seeds, Kindom Army, the Next True Heroes with the Spirit of Excellence
-              </p>
-              <p className='text-[21px] lg:w-[95%] text-left'>
-                • Excellent Teachers
-              </p>
-              <p className='text-[21px] lg:w-[95%] text-left'>
-                • Great Learning Tools
-              </p>
-              <p className='text-[21px] lg:w-[95%] text-left'>
-                • Support Groups
-              </p>
-              <p className='text-[21px] lg:w-[95%] text-left'>
-                • Exciting Learning Environment
-              </p>
-          </div>
-          <div className='h-4/4 w-4/4 lg:w-2/4'>
-              <img src={school2} alt="" />
-          </div>
-      </div>
-      <div className='flex flex-col lg:flex-row lg:h-fit justify-center items-center border-b-2 border-[gold]'>
-          <div className='flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]'>
-              <h1 className='text-5xl text-center font-semibold lg:mt-3.5'>Academic Excellence!</h1>
-              <p className='text-[18px] text-justify lg:w-[95%]'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor. Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.
 
-              Maecenas euismod mattis dapibus. Nullam at tortor non urna efficitur dignissim vel nec erat. Fusce rhoncus cursus eros vel blandit. Vestibulum sapien mi, condimentum sed odio at, condimentum imperdiet lorem. Vestibulum nec egestas leo, et ultrices elit. Sed pharetra eros non dui pretium, sit amet suscipit risus fermentum. Ut urna nibh, vulputate non mi vel, luctus venenatis libero. Maecenas interdum fermentum odio et ornare. Proin non iaculis lectus. Morbi a arcu risus. Duis convallis, urna eu scelerisque porttitor, ante nisi lobortis neque, quis aliquet tellus risus quis metus. Aliquam erat volutpat. In aliquam orci vel sapien iaculis placerat. Cras ac lorem urna.
-            </p>
-          </div>
-          
-          <div className='h-4/4 w-4/4 lg:w-2/4'>
-            <img src={school2} alt="" />
-          </div>
+      <div className="flex flex-col lg:flex-row-reverse justify-center items-center border-2 border-[gold]">
+        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]">
+          <h1 className="text-5xl text-center font-semibold">
+            OUR UNIQUE STYLE
+          </h1>
+          <p className="text-[21px] lg:w-[95%] text-left">
+            • God Factor - We have a mandate to raise Godly Seeds, Kindom Army,
+            the Next True Heroes with the Spirit of Excellence
+          </p>
+          <p className="text-[21px] lg:w-[95%] text-left">
+            • Excellent Teachers
+          </p>
+          <p className="text-[21px] lg:w-[95%] text-left">
+            • Great Learning Tools
+          </p>
+          <p className="text-[21px] lg:w-[95%] text-left">• Support Groups</p>
+          <p className="text-[21px] lg:w-[95%] text-left">
+            • Exciting Learning Environment
+          </p>
+        </div>
+        <div className="h-4/4 w-4/4 lg:w-2/4">
+          <img src={school2} alt="" />
+        </div>
       </div>
-      <div className='flex flex-col justify-center items-center'>
-          <div>
-            <h1 className='text-5xl text-center font-semibold lg: mt-[20px] border-b-2 border-[gold]'>OUR FACILITIES</h1>
-          </div>      
+
+      <div className="flex flex-col lg:flex-row lg:h-fit justify-center items-center border-2 border-[gold]">
+        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]">
+          <h1 className="text-5xl text-center font-semibold lg:mt-3.5">
+            Academic Excellence!
+          </h1>
+          <p className="text-[18px] text-justify lg:w-[95%]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum
+            ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor.
+            Sed felis lorem, cursus vitae dictum vitae, ornare non felis.
+            Maecenas at nulla id lacus rutrum dictum sit amet non nunc.
+            Phasellus efficitur vulputate orci, vel dignissim risus viverra
+            vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel
+            arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu
+            rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.
+            Maecenas euismod mattis dapibus. Nullam at tortor non urna efficitur
+            dignissim vel nec erat. Fusce rhoncus cursus eros vel blandit.
+            Vestibulum sapien mi, condimentum sed odio at, condimentum imperdiet
+            lorem. Vestibulum nec egestas leo, et ultrices elit. Sed pharetra
+            eros non dui pretium, sit amet suscipit risus fermentum. Ut urna
+            nibh, vulputate non mi vel, luctus venenatis libero. Maecenas
+            interdum fermentum odio et ornare. Proin non iaculis lectus. Morbi a
+            arcu risus. Duis convallis, urna eu scelerisque porttitor, ante nisi
+            lobortis neque, quis aliquet tellus risus quis metus. Aliquam erat
+            volutpat. In aliquam orci vel sapien iaculis placerat. Cras ac lorem
+            urna.
+          </p>
+        </div>
+
+        <div className="h-4/4 w-4/4 lg:w-2/4">
+          <img src={school2} alt="" />
+        </div>
       </div>
-      <div className='h-110 lg:h-150 border-b-2 border-t-2 border-[gold]'>
-          <Facilities/>
+
+      <div className="flex flex-col justify-center items-center border-2 border-[gold]">
+        <div>
+          <h1 className="text-5xl text-center font-semibold lg: mt-[20px] border-b-2 border-[gold]">
+            OUR FACILITIES
+          </h1>
+        </div>
       </div>
-      <Footer/>
+
+      <div className="h-fit lg:h-150 border-b-2 border-t-2 border-[gold]">
+        <Facilities />
+      </div>
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default Home

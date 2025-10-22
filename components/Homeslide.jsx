@@ -35,6 +35,7 @@ const Homeslide = () => {
                 </div>
             </div>
         </div>
+
         <div>
             <div style={{background:`url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPjY2BmRH4G1Tu2kPScbhExHPNoVw6tO8FQ&s")`, backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center center'}} className="flex items-center justify-center h-[30vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[60vh] 2xl:[45vh]">
             <div style={{backgroundColor:('rgba(23, 0, 0, 0.5)'),justifyItems:'center', alignContent:'center' }} className='h-[100%] w-[100%]'>
@@ -42,6 +43,7 @@ const Homeslide = () => {
                 </div>
             </div>
         </div>
+
         <div>
             <div style={{background:`url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrw_6IbimmhEjmSp1X3vOJfLFOo1fJhuOB3w&s")`, backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center center'}} className="flex items-center justify-center h-[30vh] bg-yellow-300 w-[100%] md:h-[80vh] lg:h-[60vh] 2xl:[45vh]">
             <div style={{backgroundColor:('rgba(23, 0, 0, 0.5)'),justifyItems:'center', alignContent:'center' }} className='h-[100%] w-[100%]'>
@@ -52,6 +54,7 @@ const Homeslide = () => {
                 </div>
             </div>
         </div>
+        
         <div>
             <div style={{background:`url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPjY2BmRH4G1Tu2kPScbhExHPNoVw6tO8FQ&s")`, backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center center'}} className="flex items-center justify-center h-[30vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[60vh] 2xl:[45vh]">
             <div style={{backgroundColor:('rgba(23, 0, 0, 0.5)'),justifyItems:'center', alignContent:'center' }} className='h-[100%] w-[100%]'>
