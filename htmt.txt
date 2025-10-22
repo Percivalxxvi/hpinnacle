@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- ✅ Basic setup -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ✅ Title & Meta Description (SEO essentials) -->
+    <title>Heroes Pinnacle | Empowering Future Heroes</title>
+    <meta
+      name="description"
+      content="Heroes Pinnacle is a forward-thinking platform focused on youth empowerment, innovation, and leadership development."
+    />
+
+    <!-- ✅ Favicon -->
+    <link rel="icon" type="image/png" href="/logo2.png" />
+
+    <!-- ✅ Open Graph (Social Sharing) -->
+    <meta property="og:title" content="Heroes Pinnacle" />
+    <meta
+      property="og:description"
+      content="Empowering young innovators and leaders to reach their highest potential."
+    />
+    <meta property="og:image" content="/logo2.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://heroespinnacleschools.org/" />
+
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Heroes Pinnacle" />
+    <meta
+      name="twitter:description"
+      content="Empowering young innovators and leaders to reach their highest potential."
+    />
+    <meta name="twitter:image" content="/logo2.png" />
+
+    <!-- ✅ SEO & Indexing -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- ✅ Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Example: preloading a font -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" /> -->
+
+    <!-- ✅ Manifest (for PWA support) -->
+    <!-- <link rel="manifest" href="/manifest.json" /> -->
+  </head>
+
+  <body class="antialiased bg-white text-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
