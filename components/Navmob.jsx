@@ -26,14 +26,19 @@ const Navmob = () => {
             </div>        
             
         </div>
-        <div  style={{display:isOpen ? "flex":"none"}} className='navmob-pgs'>
-            <Link to={'/'} className='navmob-pgs1'>Home</Link>
-            <Link to={'/about'} className='navmob-pgs1'>About</Link>
-            <Link to={'/contact'} className='navmob-pgs1'>Contact</Link>
-            <Link to={'/news'} className='navmob-pgs1'>News</Link>
-            <Link to={'/events'} className='navmob-pgs1'>Events</Link>
-            {/* <Link className='navmob-pgs1'>????????????</Link> */}
-        </div>       
+        <div className={`
+                    navmob-pgs flex flex-col
+                    
+                    overflow-hidden
+                    ${isOpen===true ? "max-h-96 opacity-100 transition-all duration-2500 ease-out" : "max-h-0 opacity-0 transition-all duration-700 ease-out"}
+                `}
+                >
+                <Link to="/" className="navmob-pgs1">Home</Link>
+                <Link to="/about" className="navmob-pgs1">About</Link>
+                <Link to="/contact" className="navmob-pgs1">Contact</Link>
+                <Link to="/news" className="navmob-pgs1">News</Link>
+                <Link to="/events" className="navmob-pgs1">Events</Link>
+                </div>
     </div>
   )
 }

@@ -320,13 +320,13 @@
     .mobhero{
         display: flex;
         height: fit-content;
-        background: rgba(23, 0, 0, 0.4);
+        /* background: rgba(23, 0, 0, 0.4);/ */
         border-bottom: 2px solid white;
-        background-color: #f0f0f0;
+        /* background-color: #f0f0f0; */
         /* background-color: red; */
         /* margin-top: 100px; */
         position: relative;
-        z-index: -1;
+        /* z-index: -1; */
         border-bottom: 2px solid gold;
     }
     .mobhero p{

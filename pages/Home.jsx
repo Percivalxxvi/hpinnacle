@@ -54,7 +54,7 @@ const Home = () => {
     // };
 
   return (
-    <div>
+    <div className='flex flex-col gap-2'>
       <Navmob/>
       <div className='flex lg:hidden h-20'>
           
