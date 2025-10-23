@@ -46,7 +46,7 @@ const Contact = () => {
         </p> */}
         <div className="flex flex-wrap gap-3 justify-center items-center">
           <a
-            href="mailto:ayodejioladeji12@gmail.com"
+            href="mailto:heroespinnacleschools@gmail.com"
             className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white"
           >
             Email Me

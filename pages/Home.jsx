@@ -85,7 +85,7 @@ const Home = () => {
       <div className="flex flex-col lg:flex-row justify-center items-center border-b-2 border-[gold]">
         <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]">
           <h1 className="text-5xl text-center font-semibold">
-            WHY CHOOSE HEROES?
+            WHY CHOOSE HEROES PINNACLE SCHOOLS?
           </h1>
           <p className="text-[21px] lg:w-[95%] text-left">
             At Heroes Pinnacle Schools, we place emphasis on purposeful
@@ -116,6 +116,10 @@ const Home = () => {
           <h1 className="text-5xl text-center font-semibold">
             OUR UNIQUE STYLE
           </h1>
+          <p className="text-[21px] lg:w-[95%] text-left">
+            At Heroes Pinnacle Schools, we believe in a holistic approach to
+            education.
+          </p>
           <p className="text-[21px] lg:w-[95%] text-left">
             • God Factor - We have a mandate to raise Godly Seeds, Kindom Army,
             the Next True Heroes with the Spirit of Excellence
