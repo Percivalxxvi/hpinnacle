@@ -88,7 +88,7 @@ const Home = () => {
             WHY CHOOSE HEROES?
           </h1>
           <p className="text-[21px] lg:w-[95%] text-left">
-            At Heroes International Academy, we place emphasis on purposeful
+            At Heroes Pinnacle Schools, we place emphasis on purposeful
             learning. This educational model offers your child numerous benefits
             for growth and development:
           </p>
