@@ -3,17 +3,13 @@ import "../src/App.css"
 import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
 import school2 from '../src/assets/school2.jpg'
-import school3 from '../src/assets/school2.jpg'
 import Footer from '../components/Footer'
-import FadeSlider from '../components/FadeSlider'
-import Fade from '../components/Fade'
 
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Homeslide from '../components/Homeslide'
-import TypewriterLoop from '../components/Typewriterhome'
 import Facilities from '../components/Facilities'
+import Totop from "../components/Totop";
 
 
 const Home = () => {
@@ -83,28 +79,30 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row justify-center items-center border-b-2 border-[gold]">
-        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]">
-          <h1 className="text-5xl text-center font-semibold">
+        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center lg:justify-between w-[95%] lg:h-100 lg:mb-10">
+          <h1 className="text-4xl lg:text-5xl text-center font-semibold lg:mt-10">
             WHY CHOOSE HEROES PINNACLE SCHOOLS?
           </h1>
-          <p className="text-[21px] lg:w-[95%] text-left">
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-justify">
             At Heroes Pinnacle Schools, we place emphasis on purposeful
             learning. This educational model offers your child numerous benefits
             for growth and development:
           </p>
-          <p className="text-[21px] lg:w-[95%] text-left">
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             • Individual Attention{" "}
           </p>
-          <p className="text-[21px] lg:w-[95%] text-left">
-            • Critical Thinking{" "}
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
+            • Critical Thinking{"jdknd, "}
           </p>
-          <p className="text-[21px] lg:w-[95%] text-left">
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             • Values and Character Development
           </p>
-          <p className="text-[21px] lg:w-[95%] text-left">
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             • Strong sense of Community
           </p>
-          <p className="text-[21px] lg:w-[95%] text-left">• Improved Grades </p>
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
+            • Improved Grades{" "}
+          </p>
         </div>
         <div className="h-4/4 w-4/4 lg:w-2/4">
           <img src={school2} alt="" />
@@ -112,26 +110,28 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row-reverse justify-center items-center border-2 border-[gold]">
-        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]">
-          <h1 className="text-5xl text-center font-semibold">
+        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center lg:justify-between w-[95%] lg:h-100">
+          <h1 className="text-4xl lg:text-5xl text-center font-semibold">
             OUR UNIQUE STYLE
           </h1>
-          <p className="text-[21px] lg:w-[95%] text-left">
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             At Heroes Pinnacle Schools, we believe in a holistic approach to
             education.
           </p>
-          <p className="text-[21px] lg:w-[95%] text-left">
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             • God Factor - We have a mandate to raise Godly Seeds, Kindom Army,
             the Next True Heroes with the Spirit of Excellence
           </p>
-          <p className="text-[21px] lg:w-[95%] text-left">
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             • Excellent Teachers
           </p>
-          <p className="text-[21px] lg:w-[95%] text-left">
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             • Great Learning Tools
           </p>
-          <p className="text-[21px] lg:w-[95%] text-left">• Support Groups</p>
-          <p className="text-[21px] lg:w-[95%] text-left">
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
+            • Support Groups
+          </p>
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             • Exciting Learning Environment
           </p>
         </div>
@@ -141,8 +141,8 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row lg:h-fit justify-center items-center border-2 border-[gold]">
-        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]">
-          <h1 className="text-5xl text-center font-semibold lg:mt-3.5">
+        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%] lg:h-100">
+          <h1 className="text-4xl lg:text-5xl text-center font-semibold lg:mt-3.5">
             Academic Excellence!
           </h1>
           <p className="text-[18px] text-justify lg:w-[95%]">
@@ -175,7 +175,7 @@ const Home = () => {
 
       <div className="flex flex-col justify-center items-center border-2 border-[gold]">
         <div>
-          <h1 className="text-5xl text-center font-semibold lg: mt-[20px] border-b-2 border-[gold]">
+          <h1 className="text-4xl lg:text-5xl text-center font-semibold lg:mt-[20px] border-b-2 border-[gold]">
             OUR FACILITIES
           </h1>
         </div>
@@ -184,6 +184,7 @@ const Home = () => {
       <div className="h-fit lg:h-150 border-b-2 border-t-2 border-[gold]">
         <Facilities />
       </div>
+      <Totop />
       <Footer />
     </div>
   );

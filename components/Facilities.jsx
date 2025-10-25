@@ -24,13 +24,13 @@ const Facilities = () => {
       <Slider {...settings}>
         <div className="w-4/4 ">
           <div className="flex flex-col items-center justify-between h-60 w-4/4 lg:h-150 lg:w-4/4">
-            <h1 className="lg:text-5xl text-4xl text-black h-[10%]">
+            <h1 className="lg:text-5xl text-3xl text-black h-[10%]">
               Computer Lab
             </h1>
             <div className="lg:h-[80%] lg:w-[100%] h-[80%] w-90 flex items-center justify-center bg-amber-500">
               <img
                 className="h-4/4 lg:h-4/4 lg:w-4/4 w-[100%] object-cover"
-                src={school1}
+                src="https://images.unsplash.com/photo-1719159381981-1327b22aff9b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjBsYWJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600"
                 alt=""
               />
             </div>
@@ -39,13 +39,13 @@ const Facilities = () => {
 
         <div className="w-4/4 ">
           <div className="flex flex-col items-center justify-between h-60 w-4/4 lg:h-150 lg:w-4/4">
-            <h1 className="lg:text-5xl text-4xl text-black h-[10%]">
+            <h1 className="lg:text-5xl text-3xl text-black h-[10%]">
               Science Lab
             </h1>
             <div className="lg:h-[80%] lg:w-[100%] h-[80%] w-90 flex items-center justify-center bg-amber-500">
               <img
                 className="h-[100%] lg:h-4/4 lg:w-4/4 w-[100%] object-cover"
-                src={school2}
+                src="https://images.unsplash.com/photo-1602052577122-f73b9710adba?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2Nob29sJTIwc2NpZW5jZSUyMGxhYnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600"
                 alt=""
               />
             </div>
@@ -54,11 +54,11 @@ const Facilities = () => {
 
         <div className="w-4/4 ">
           <div className="flex flex-col items-center justify-between h-60 w-4/4 lg:h-150 lg:w-4/4">
-            <h1 className="lg:text-5xl text-4xl text-black h-[10%]">Library</h1>
+            <h1 className="lg:text-5xl text-3xl text-black h-[10%]">Library</h1>
             <div className="lg:h-[80%] lg:w-[100%] h-[80%] w-90 flex items-center justify-center bg-amber-500">
               <img
                 className="h-4/4 lg:h-4/4 lg:w-4/4 w-[100%] object-cover"
-                src={school1}
+                src="https://images.unsplash.com/photo-1623078424463-473cf34e3ecf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNjaG9vbCUyMGJ1aWxkaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
                 alt=""
               />
             </div>

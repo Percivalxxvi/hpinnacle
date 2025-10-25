@@ -4,6 +4,7 @@ import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
 import school2 from '../src/assets/school2.jpg'
 import school1 from "../src/assets/school1.jpg";
+import Totop from "../components/Totop";
 import Footer from '../components/Footer'
 
 const About = () => {
@@ -88,6 +89,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Totop />
       <Footer />
     </div>
   );

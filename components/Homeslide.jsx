@@ -22,50 +22,123 @@ const Homeslide = () => {
     pauseOnHover: false
   };
   return (
-    <div className='h-[30vh] md:h-[80vh] lg:h-[60vh] 2xl:[55vh]'>
-        <div className="h-[30vh] md:h-[70%]">
-      <Slider {...settings}>
-        <div>
-            <div style={{background:`url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1hsT6DLYHtSRxBysrLfnUP1cM1eqsrbWzQ&s")`, backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center center'}} className="flex items-center justify-center h-[30vh] bg-red-600 w-[100%] md:h-[80vh] lg:h-[60vh] 2xl:[45vh]">
-                <div style={{backgroundColor:('rgba(23, 0, 0, 0.5)'),justifyItems:'center', alignContent:'center' }} className='h-[100%] w-[100%]'>
-                    <h1 className='text-4xl md:text-8xl lg:text-6xl md:w-[60%] font-bold text-white text-center hover:scale-103 cursor-pointer'> <TypewriterLoop words={['HEROES PINNACLE SCHOOLS']}
-        typingSpeed={100}
-        deletingSpeed={20}
-        delay={2000}/></h1>
-                </div>
+    <div className="h-[30vh] md:h-[80vh] lg:h-[65vh] 2xl:[55vh]">
+      <div className="h-[30vh] md:h-[70%]">
+        <Slider {...settings}>
+          <div>
+            <div
+              style={{
+                background: `url('https://images.unsplash.com/photo-1592066575517-58df903152f2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600')`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                backgroundPosition: "center center",
+              }}
+              className="flex items-center justify-center h-[30vh] bg-red-600 w-[100%] md:h-[80vh] lg:h-[65vh] 2xl:[45vh]"
+            >
+              <div
+                style={{
+                  backgroundColor: "rgba(23, 0, 0, 0.5)",
+                  justifyItems: "center",
+                  alignContent: "center",
+                }}
+                className="h-[100%] w-[100%]"
+              >
+                <h1 className="text-4xl md:text-8xl lg:text-6xl md:w-[60%] font-bold text-white text-center hover:scale-103 cursor-pointer">
+                  {" "}
+                  <TypewriterLoop
+                    words={["HEROES PINNACLE SCHOOLS"]}
+                    typingSpeed={100}
+                    deletingSpeed={20}
+                    delay={2000}
+                  />
+                </h1>
+              </div>
             </div>
-        </div>
+          </div>
 
-        <div>
-            <div style={{background:`url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPjY2BmRH4G1Tu2kPScbhExHPNoVw6tO8FQ&s")`, backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center center'}} className="flex items-center justify-center h-[30vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[60vh] 2xl:[45vh]">
-            <div style={{backgroundColor:('rgba(23, 0, 0, 0.5)'),justifyItems:'center', alignContent:'center' }} className='h-[100%] w-[100%]'>
-                    <h1 className='text-4xl md:text-8xl lg:text-6xl md:w-[60%] font-bold text-white text-center hover:scale-103 cursor-pointer'>HEROES PINNACLE SCHOOLS</h1>
-                </div>
+          <div>
+            <div
+              style={{
+                background: `url("https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2Nob29sJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600")`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                backgroundPosition: "center center",
+              }}
+              className="flex items-center justify-center h-[30vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[65vh] 2xl:[45vh]"
+            >
+              <div
+                style={{
+                  backgroundColor: "rgba(23, 0, 0, 0.5)",
+                  justifyItems: "center",
+                  alignContent: "center",
+                }}
+                className="h-[100%] w-[100%]"
+              >
+                <h1 className="text-4xl md:text-8xl lg:text-6xl md:w-[60%] font-bold text-white text-center hover:scale-103 cursor-pointer">
+                  HEROES PINNACLE SCHOOLS
+                </h1>
+              </div>
             </div>
-        </div>
+          </div>
 
-        <div>
-            <div style={{background:`url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrw_6IbimmhEjmSp1X3vOJfLFOo1fJhuOB3w&s")`, backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center center'}} className="flex items-center justify-center h-[30vh] bg-yellow-300 w-[100%] md:h-[80vh] lg:h-[60vh] 2xl:[45vh]">
-            <div style={{backgroundColor:('rgba(23, 0, 0, 0.5)'),justifyItems:'center', alignContent:'center' }} className='h-[100%] w-[100%]'>
-                    <h1 className='text-4xl md:text-8xl lg:text-6xl md:w-[60%] font-bold text-white text-center hover:scale-103 cursor-pointer'><TypewriterLoop words={['HEROES PINNACLE SCHOOLS']}
-        typingSpeed={100}
-        deletingSpeed={20}
-        delay={5000}/></h1>
-                </div>
+          <div>
+            <div
+              style={{
+                background: `url("https://images.unsplash.com/photo-1610962381137-50ef93055125?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNjaG9vbCUyMGJ1aWxkaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600")`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                backgroundPosition: "center center",
+              }}
+              className="flex items-center justify-center h-[30vh] bg-yellow-300 w-[100%] md:h-[80vh] lg:h-[65vh] 2xl:[45vh]"
+            >
+              <div
+                style={{
+                  backgroundColor: "rgba(23, 0, 0, 0.5)",
+                  justifyItems: "center",
+                  alignContent: "center",
+                }}
+                className="h-[100%] w-[100%]"
+              >
+                <h1 className="text-4xl md:text-8xl lg:text-6xl md:w-[60%] font-bold text-white text-center hover:scale-103 cursor-pointer">
+                  <TypewriterLoop
+                    words={["HEROES PINNACLE SCHOOLS"]}
+                    typingSpeed={100}
+                    deletingSpeed={20}
+                    delay={5000}
+                  />
+                </h1>
+              </div>
             </div>
-        </div>
-        
-        <div>
-            <div style={{background:`url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPjY2BmRH4G1Tu2kPScbhExHPNoVw6tO8FQ&s")`, backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center center'}} className="flex items-center justify-center h-[30vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[60vh] 2xl:[45vh]">
-            <div style={{backgroundColor:('rgba(23, 0, 0, 0.5)'),justifyItems:'center', alignContent:'center' }} className='h-[100%] w-[100%]'>
-                    <h1 className='text-4xl md:text-8xl lg:text-6xl md:w-[60%] font-bold text-white text-center hover:scale-103 cursor-pointer'>HEROES PINNACLE SCHOOLS</h1>
-                </div>
+          </div>
+
+          <div>
+            <div
+              style={{
+                background: `url("https://images.unsplash.com/photo-1554743365-a80c1243316e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTR8fHNjaG9vbCUyMGJ1aWxkaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600")`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                backgroundPosition: "center center",
+              }}
+              className="flex items-center justify-center h-[30vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[65vh] 2xl:[45vh]"
+            >
+              <div
+                style={{
+                  backgroundColor: "rgba(23, 0, 0, 0.5)",
+                  justifyItems: "center",
+                  alignContent: "center",
+                }}
+                className="h-[100%] w-[100%]"
+              >
+                <h1 className="text-4xl md:text-8xl lg:text-6xl md:w-[60%] font-bold text-white text-center hover:scale-103 cursor-pointer">
+                  HEROES PINNACLE SCHOOLS
+                </h1>
+              </div>
             </div>
-        </div>
-      </Slider>
+          </div>
+        </Slider>
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
 export default Homeslide
