@@ -32,23 +32,6 @@ const Home = () => {
     autoplay:true
   };
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentIndex(prev =>
-  //       prev === images.length - 1 ? 0 : prev + 1
-  //     );
-  //   }, 3000);
-
-  //   return () => clearInterval(interval);
-  // }, [images.length]);
-
-    // const backgroundStyle = {
-    //   background: `url(${images[currentIndex]})`,
-    //   backgroundSize: 'cover',
-    //   backgroundPosition: 'center center',
-    //   transition: 'background 0.5s ease-in-out',
-    // };
-
   return (
     <div className="flex flex-col gap-2 bg-gray-300 border-2 border-[gold]">
       <Navmob />
@@ -92,7 +75,7 @@ const Home = () => {
             • Individual Attention{" "}
           </p>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
-            • Critical Thinking{"jdknd, "}
+            • Critical Thinking{" "}
           </p>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             • Values and Character Development
@@ -119,7 +102,7 @@ const Home = () => {
             education.
           </p>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
-            • God Factor - We have a mandate to raise Godly Seeds, Kindom Army,
+            • God Factor - We have a mandate to raise Godly Seeds, Kingdom Army,
             the Next True Heroes with the Spirit of Excellence
           </p>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
