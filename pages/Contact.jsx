@@ -1,4 +1,5 @@
-import React from 'react'
+// import React from 'react'
+import React, { useState } from "react";
 import './Contact.css'
 import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
@@ -11,8 +12,18 @@ import mappin from '../src/assets/mappin.svg'
 
 import { Mail } from 'lucide-react'
 import { Hotel } from 'lucide-react'
+import Contactform from '../components/Contactform'
+import Totop from "../components/Totop";
 
 const Contact = () => {
+   const [formData, setFormData] = useState({
+      name: "",
+      email: "",
+      message: "",
+    });
+   const handleChange = (e) => {
+     setFormData({ ...formData, [e.target.name]: e.target.value });
+   };
   return (
     <div className="flex flex-col gap-2 bg-[#3e7742]">
       <Navmob />
@@ -46,19 +57,23 @@ const Contact = () => {
         </p> */}
         <div className="flex flex-wrap gap-3 justify-center items-center">
           <a
-            href="mailto:heroespinnacleschools@gmail.com"
-            className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white"
-          >
-            Email Me
-          </a>
-          <a
-            href="https://x.com/thegreyline12"
+            // href="https://x.com/thegreyline12"
             className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white"
           >
             Twitter/X
           </a>
+          <a
+            // href="https://x.com/thegreyline12"
+            className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white"
+          >
+            Instagram
+          </a>
         </div>
       </div>
+      <div className="flex flex-col h-130 lg:flex-col bg-[#3e7742] border-2 border-[gold] items-center justify-center">
+        <Contactform />
+      </div>
+      <Totop />
       <Footer />
     </div>
   );
