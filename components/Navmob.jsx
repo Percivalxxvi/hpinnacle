@@ -18,7 +18,7 @@ const Navmob = () => {
           />
         </div>
         <div className="ham1">
-          <h1 className="text-[10px] mt-[30px]">Menu</h1>
+          <h1 className="text-[10px]">Menu</h1>
           <Hamburger
             toggled={isOpen}
             toggle={setOpen}
