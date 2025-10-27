@@ -54,16 +54,13 @@ const Home = () => {
           ultrices elit. Sed pharetra eros non dui pretium, sit amet suscipit
           risus fermentum. Ut urna nibh, vulputate non mi vel, luctus venenatis
           libero. Maecenas interdum fermentum odio et ornare. Proin non iaculis
-          lectus. Morbi a arcu risus. Duis convallis, urna eu scelerisque
-          porttitor, ante nisi lobortis neque, quis aliquet tellus risus quis
-          metus. Aliquam erat volutpat. In aliquam orci vel sapien iaculis
-          placerat. Cras ac lorem urna.
+          lectus.
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-center items-center border-b-2 border-[gold]">
-        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center lg:justify-between w-[95%] lg:h-100 lg:mb-10">
-          <h1 className="text-4xl lg:text-5xl text-center font-semibold lg:mt-10">
+      <div className="flex flex-col-reverse lg:flex-row justify-center items-center border-b-2 border-[gold]">
+        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center lg:justify-between w-[95%] lg:h-100 h-fit">
+          <h1 className="text-4xl lg:text-5xl text-center font-semibold mt-3 lg:mt-0">
             WHY CHOOSE HEROES PINNACLE SCHOOLS?
           </h1>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-justify">
@@ -83,17 +80,20 @@ const Home = () => {
           <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             • Strong sense of Community
           </p>
-          <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
+          <p className="lg:text-[21px] text-md lg:w-[95%] text-left mb-2 lg:mb-0">
             • Improved Grades{" "}
           </p>
         </div>
         <div className="h-4/4 w-4/4 lg:w-2/4">
-          <img src={school2} alt="" />
+          <img
+            src="https://ik.imagekit.io/percival26/schoolfar.JPG?updatedAt=1761573302333"
+            alt=""
+          />
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row-reverse justify-center items-center border-2 border-[gold]">
-        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center lg:justify-between w-[95%] lg:h-100">
+      <div className="flex flex-col-reverse lg:flex-row-reverse justify-center items-center border-2 border-[gold]">
+        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center lg:justify-between w-[95%] lg:h-100 lg:mb-0 mb-2 lg:mt-0 mt-2">
           <h1 className="text-4xl lg:text-5xl text-center font-semibold">
             OUR UNIQUE STYLE
           </h1>
@@ -119,12 +119,15 @@ const Home = () => {
           </p>
         </div>
         <div className="h-4/4 w-4/4 lg:w-2/4">
-          <img src={school2} alt="" />
+          <img
+            src="https://ik.imagekit.io/percival26/frontlow.JPG?updatedAt=1761585120087"
+            alt=""
+          />
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row lg:h-fit justify-center items-center border-2 border-[gold]">
-        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%] lg:h-100">
+      <div className="flex flex-col-reverse lg:flex-row lg:h-fit justify-center items-center border-2 border-[gold]">
+        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%] lg:h-fit lg:mb-0 mb-2 lg:mt-0 mt-2">
           <h1 className="text-4xl lg:text-5xl text-center font-semibold lg:mt-3.5">
             Academic Excellence!
           </h1>
@@ -144,15 +147,15 @@ const Home = () => {
             eros non dui pretium, sit amet suscipit risus fermentum. Ut urna
             nibh, vulputate non mi vel, luctus venenatis libero. Maecenas
             interdum fermentum odio et ornare. Proin non iaculis lectus. Morbi a
-            arcu risus. Duis convallis, urna eu scelerisque porttitor, ante nisi
-            lobortis neque, quis aliquet tellus risus quis metus. Aliquam erat
-            volutpat. In aliquam orci vel sapien iaculis placerat. Cras ac lorem
-            urna.
+            arcu risus.
           </p>
         </div>
 
-        <div className="h-4/4 w-4/4 lg:w-2/4">
-          <img src={school2} alt="" />
+        <div className="h-4/4 w-4/4 lg:w-2/4 lg:h-4/4">
+          <img
+            src="https://ik.imagekit.io/percival26/clasroom1.JPG?updatedAt=1761585614181"
+            alt=""
+          />
         </div>
       </div>
 
