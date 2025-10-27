@@ -45,7 +45,7 @@ const Facilities = () => {
             <div className="lg:h-[80%] lg:w-[100%] h-[80%] w-90 flex items-center justify-center bg-amber-500">
               <img
                 className="h-[100%] lg:h-4/4 lg:w-4/4 w-[100%] object-cover"
-                src="https://images.unsplash.com/photo-1602052577122-f73b9710adba?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2Nob29sJTIwc2NpZW5jZSUyMGxhYnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600"
+                src="https://ik.imagekit.io/percival26/laboratory.JPG?updatedAt=1761572865437"
                 alt=""
               />
             </div>

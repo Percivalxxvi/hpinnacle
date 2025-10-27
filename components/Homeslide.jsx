@@ -22,18 +22,18 @@ const Homeslide = () => {
     pauseOnHover: false
   };
   return (
-    <div className="h-[30vh] md:h-[80vh] lg:h-[65vh] 2xl:[55vh]">
+    <div className="h-[30vh] md:h-[80vh] lg:h-[75vh] 2xl:[55vh]">
       <div className="h-[30vh] md:h-[70%]">
         <Slider {...settings}>
           <div>
             <div
               style={{
-                background: `url('https://images.unsplash.com/photo-1592066575517-58df903152f2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600')`,
+                background: `url('https://ik.imagekit.io/percival26/schoolfar.JPG?updatedAt=1761573302333')`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
               }}
-              className="flex items-center justify-center h-[30vh] bg-red-600 w-[100%] md:h-[80vh] lg:h-[65vh] 2xl:[45vh]"
+              className="flex items-center justify-center h-[30vh] bg-red-600 w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
             >
               <div
                 style={{
@@ -59,12 +59,12 @@ const Homeslide = () => {
           <div>
             <div
               style={{
-                background: `url("https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2Nob29sJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600")`,
+                background: `url("https://ik.imagekit.io/percival26/schoolfront.JPG?updatedAt=1761573623614")`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
               }}
-              className="flex items-center justify-center h-[30vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[65vh] 2xl:[45vh]"
+              className="flex items-center justify-center h-[30vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
             >
               <div
                 style={{
@@ -84,12 +84,12 @@ const Homeslide = () => {
           <div>
             <div
               style={{
-                background: `url("https://images.unsplash.com/photo-1610962381137-50ef93055125?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNjaG9vbCUyMGJ1aWxkaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600")`,
+                background: `url("https://ik.imagekit.io/percival26/schooledge2.JPG?updatedAt=1761575182226")`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
               }}
-              className="flex items-center justify-center h-[30vh] bg-yellow-300 w-[100%] md:h-[80vh] lg:h-[65vh] 2xl:[45vh]"
+              className="flex items-center justify-center h-[30vh] bg-yellow-300 w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
             >
               <div
                 style={{
@@ -114,12 +114,12 @@ const Homeslide = () => {
           <div>
             <div
               style={{
-                background: `url("https://images.unsplash.com/photo-1554743365-a80c1243316e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTR8fHNjaG9vbCUyMGJ1aWxkaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600")`,
+                background: `url("https://ik.imagekit.io/percival26/schooledge.JPG?updatedAt=1761574725206")`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
               }}
-              className="flex items-center justify-center h-[30vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[65vh] 2xl:[45vh]"
+              className="flex items-center justify-center h-[30vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
             >
               <div
                 style={{
