@@ -10,21 +10,21 @@ const Navmob = () => {
     const [isOpen, setOpen] = useState(false)
   return (
     <div className="flex lg:hidden flex-col items-center justify-between bg-[#EDEDEDCC] w-full shadow-md border-b-3 border-[gold] fixed top-0 z-999">
-      <div className="ham">
+      <div className="ham border-b pl-5 pr-5">
         <div className="navmob1-logo">
           <img
             src="https://ik.imagekit.io/percival26/schoollogo.png?updatedAt=1761578087139"
-            alt=""
+            alt="heroes pinnacle schools"
           />
         </div>
         <div className="ham1">
-          <h1 className="text-[10px]">Menu</h1>
+         
           <Hamburger
             toggled={isOpen}
             toggle={setOpen}
             color="#3e7742"
             label={"menu"}
-            size={35}
+            size={30}
             rounded
             duration={0.9}
           />

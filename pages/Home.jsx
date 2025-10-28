@@ -51,10 +51,7 @@ const Home = () => {
           Nullam at tortor non urna efficitur dignissim vel nec erat. Fusce
           rhoncus cursus eros vel blandit. Vestibulum sapien mi, condimentum sed
           odio at, condimentum imperdiet lorem. Vestibulum nec egestas leo, et
-          ultrices elit. Sed pharetra eros non dui pretium, sit amet suscipit
-          risus fermentum. Ut urna nibh, vulputate non mi vel, luctus venenatis
-          libero. Maecenas interdum fermentum odio et ornare. Proin non iaculis
-          lectus.
+          ultrices elit.
         </p>
       </div>
 
@@ -87,7 +84,7 @@ const Home = () => {
         <div className="h-4/4 w-4/4 lg:w-2/4">
           <img
             src="https://ik.imagekit.io/percival26/schoolfar.JPG?updatedAt=1761573302333"
-            alt=""
+            alt="heroes pinnacle schools"
           />
         </div>
       </div>
@@ -121,7 +118,7 @@ const Home = () => {
         <div className="h-4/4 w-4/4 lg:w-2/4">
           <img
             src="https://ik.imagekit.io/percival26/frontlow.JPG?updatedAt=1761585120087"
-            alt=""
+            alt="heroes pinnacle schools"
           />
         </div>
       </div>
@@ -131,30 +128,45 @@ const Home = () => {
           <h1 className="text-4xl lg:text-5xl text-center font-semibold lg:mt-3.5">
             Academic Excellence!
           </h1>
-          <p className="text-[18px] text-justify lg:w-[95%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum
-            ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor.
-            Sed felis lorem, cursus vitae dictum vitae, ornare non felis.
-            Maecenas at nulla id lacus rutrum dictum sit amet non nunc.
-            Phasellus efficitur vulputate orci, vel dignissim risus viverra
-            vitae. Integer quis tempor libero. Nulla facilisi. Suspendisse vel
-            arcu ac lectus tempor ultrices. Quisque blandit imperdiet eros eu
-            rutrum. Etiam et turpis et ligula molestie rhoncus id in leo.
-            Maecenas euismod mattis dapibus. Nullam at tortor non urna efficitur
-            dignissim vel nec erat. Fusce rhoncus cursus eros vel blandit.
-            Vestibulum sapien mi, condimentum sed odio at, condimentum imperdiet
-            lorem. Vestibulum nec egestas leo, et ultrices elit. Sed pharetra
-            eros non dui pretium, sit amet suscipit risus fermentum. Ut urna
-            nibh, vulputate non mi vel, luctus venenatis libero. Maecenas
-            interdum fermentum odio et ornare. Proin non iaculis lectus. Morbi a
-            arcu risus.
+          <p className="text-[18px] lg:text-[15px] text-justify lg:w-[95%] mb-1">
+            Academic excellence at Heroes Pinnacle Schools is rooted in the
+            conviction that every learner has the potential to rise to the
+            “pinnacle” of their abilities. This commitment means that students
+            are not just taught facts, but are guided to think deeply, create
+            meaning, and apply knowledge to real-world challenges. At the same
+            time, Heroes Pinnacle Schools fosters God fearing character,
+            responsibility and global readiness — so that academic mastery goes
+            hand in hand with personal growth.
+          </p>
+          <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] font-semibold">
+            In this school community:{" "}
+          </p>
+          <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
+            • Teachers deliver a rigorous, well-structured curriculum aligned
+            with national and international standards, ensuring students excel
+            in exams and beyond.
+          </p>
+          <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
+            {" "}
+            • Learners benefit from a supportive environment in which their
+            individual strengths are identified, nurtured and stretched.
+          </p>
+          <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
+            • The ethos of excellence is embedded not only in grades and
+            results, but in habits: disciplined study, curiosity, perseverance
+            when challenges arise, collaboration, reflection and innovation.
+          </p>
+          <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
+            • Academic excellence at Heroes Pinnacle is also about preparing
+            students to be responsible citizens and future leaders: able to
+            adapt, solve problems, and contribute positively to society.
           </p>
         </div>
 
         <div className="h-4/4 w-4/4 lg:w-2/4 lg:h-4/4">
           <img
             src="https://ik.imagekit.io/percival26/clasroom1.JPG?updatedAt=1761585614181"
-            alt=""
+            alt="heroes pinnacle schools"
           />
         </div>
       </div>
@@ -167,7 +179,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="h-fit lg:h-150 border-b-2 border-t-2 border-[gold]">
+      <div className="h-fit lg:h-150 border-b-2 border-t-2 border-[gold] lg:mb-5">
         <Facilities />
       </div>
       <Totop />

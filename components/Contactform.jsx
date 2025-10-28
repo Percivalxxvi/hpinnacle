@@ -46,15 +46,15 @@ const Contactform = ({ title = "Contact Us" }) => {
   
 
   return (
-    <div className="flex flex-col items-center justify-center bg-[#3e7742] w-[95%]">
+    <div className="flex flex-col items-center justify-center bg-[#3e7742] w-[95%] h-fit mt-3 mb-3">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col shadow-xl pr-8 lg:w-fit w-4/4 items-center justify-center gap-2"
+        className="flex flex-col shadow-xl lg:w-fit w-4/4 items-center justify-center gap-2"
       >
-        <h2 className="text-4xl mt-5 text-[gold] mb-6 text-center">{title}</h2>
+        <h2 className="text-4xl text-[gold] text-center">{title}</h2>
 
         {/* Name Field */}
-        <div className="mb-4 lg:w-120 w-4/4">
+        <div className="lg:w-120 w-4/4">
           <label className="block text-[gold] font-medium mb-2">Name</label>
           <input
             type="text"
@@ -63,12 +63,12 @@ const Contactform = ({ title = "Contact Us" }) => {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full h-10 px-4 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[gold] bg-gray-200 ml-5"
+            className="w-full h-10 px-2 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[gold] bg-gray-200"
           />
         </div>
 
         {/* Email Field */}
-        <div className="mb-4 lg:w-120 w-4/4">
+        <div className="mb-2 lg:w-120 w-4/4">
           <label className="block text-[gold] font-medium mb-2">Email</label>
           <input
             type="email"
@@ -77,12 +77,12 @@ const Contactform = ({ title = "Contact Us" }) => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full h-10 px-4 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[gold] bg-gray-200"
+            className="w-full h-10 px-2 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[gold] bg-gray-200"
           />
         </div>
 
         {/* Message Field */}
-        <div className="mb-6 lg:w-120 w-4/4">
+        <div className="mb-2 lg:w-120 w-4/4">
           <label className="block text-[gold] font-medium mb-2">Message</label>
           <textarea
             name="message"
@@ -91,7 +91,7 @@ const Contactform = ({ title = "Contact Us" }) => {
             onChange={handleChange}
             rows="4"
             required
-            className="w-full h-50 px-4 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[gold] bg-gray-200"
+            className="w-full h-50 px-2 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[gold] bg-gray-200"
           />
         </div>
 

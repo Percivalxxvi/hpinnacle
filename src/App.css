@@ -330,11 +330,11 @@
     .mobhero p{
         /* display: flex; */
         color: black;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         font-weight: 500;
-        padding-bottom: 15px;
-        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-top: 5px;
         text-align: justify;
     }
     .sec2{

@@ -10,19 +10,19 @@ const Navpc = ({page}) => {
     const [menu3,setMenu3]=useState(false)
     const [menu4,setMenu4]=useState(false)
   return (
-    <div className="hidden lg:flex h-25 items-center justify-evenly gap-5 px-10 md:px-20 lg:px-32 py-4 sticky top-0 z-50 bg-[#EDEDEDCC] shadow-md border-b-3 border-[gold]">
+    <div className="hidden lg:flex h-25 items-center justify-between px-10 md:px-20 lg:px-32 py-4 sticky top-0 z-50 bg-[#EDEDEDCC] shadow-md border-b-3 border-[gold]">
       <div className="flex items-center justify-center h-25 w-100 gap-3">
         <div className="flex items-center justify-center h-35 w-28 md:h-16 md:w-36 lg:h-4/4 lg:w-38 p-1 rounded-md">
           <img
             className="h-4/4 w-4/4 object-contain"
             src="https://ik.imagekit.io/percival26/schoollogo.png?updatedAt=1761578087139"
-            alt=""
+            alt="heroes pinnacle schools"
           />
         </div>
-        <h1 className="text-[#3e7742] text-4xl ">Heroes Pinnacle Schools</h1>
+        <h1 className="text-[#3e7742] text-2xl pr-25 leading-6.5">Heroes Pinnacle Schools</h1>
       </div>
 
-      <div className="flex items-center justify-center gap-6 md:gap-10 lg:gap-16 pr-40">
+      <div className="flex items-center justify-center gap-2 md:gap-10 lg:gap-6 pr-10">
         <Link
           to={"/"}
           onMouseEnter={() => setMenu(true)}

@@ -1,4 +1,3 @@
-// import React from 'react'
 import React, { useState } from "react";
 import './Contact.css'
 import Navpc from '../components/Navpc'
@@ -29,10 +28,10 @@ const Contact = () => {
       <Navmob />
       <Navpc page="contact" />
       <div className="flex lg:hidden h-20"></div>
-      <div className="flex flex-col items-center justify-center bg-[#3e7742] lg:h-150 h-320 pt-5 border-2 border-[gold]">
-        <div className="flex flex-col items-center justify-center text-[gold] gap-10 lg:w-[80%] text-center">
-          <h1 className="text-4xl mt-5">Get in Touch with Us</h1>
-          <div className="flex flex-col lg:ml-20 lg:mt-0 mt-10 gap-8 lg:flex-row items-center">
+      <div className="flex flex-col items-center justify-center bg-[#3e7742] lg:h-fit h-fit border-2 border-[gold]">
+        <div className="flex flex-col items-center justify-center text-[gold] gap-5 lg:w-[80%] text-center mt-3 mb-3">
+          <h1 className="text-4xl mt-1">Get in Touch with Us</h1>
+          <div className="flex flex-col lg:ml-0 lg:mt-0 gap-4 lg:gap-8 lg:flex-row items-center pb-2">
             <Cnct
               image={phone}
               txt={"Phone Number"}
@@ -43,15 +42,15 @@ const Contact = () => {
               image={mappin}
               txt={"School Address"}
               txt2={
-                "Plot 5, Abba Father Estate Phase 1, Opp Redemption Camp, Estate 15, Ogun State"
+                "Plot 5, Wonerland Community, Opp Redemption Camp, Estate 15, Ogun State"
               }
             />
-            <Cnct image={mail} txt={"Email"} txt2={"pinnacle@mail.com"} />
+            {/* <Cnct image={mail} txt={"Email"} txt2={"heroespinnacleschools@gmail.com"} /> */}
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:h-[40vh] h-50 lg:flex-col bg-[#3e7742] items-center justify-center gap-10 border-2 border-[gold] p-9">
-        <h3 className="text-4xl mt-5 text-[gold]">Connect with us</h3>
+      <div className="flex flex-col lg:h-[40vh] h-50 lg:flex-col bg-[#3e7742] items-center justify-center gap-5 lg:gap-10 border-2 border-[gold] p-9">
+        <h3 className="text-4xl mt-2 text-[gold] text-center">Connect on Socials</h3>
         {/* <p className="text-gray-300 mb-8">
           Want to collaborate or chat? Reach out!
         </p> */}
@@ -70,7 +69,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-col h-130 lg:flex-col bg-[#3e7742] border-2 border-[gold] items-center justify-center">
+      <div className="flex flex-col h-fit lg:flex-col bg-[#3e7742] border-2 border-[gold] items-center justify-center">
         <Contactform />
       </div>
       <Totop />
