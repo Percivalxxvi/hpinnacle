@@ -50,20 +50,22 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex flex-col lg:h-[40vh] h-50 lg:flex-col bg-[#3e7742] items-center justify-center gap-5 lg:gap-10 border-2 border-[gold] p-9">
-        <h3 className="text-4xl mt-2 text-[gold] text-center">Connect on Socials</h3>
+        <h3 className="text-4xl mt-2 text-[gold] text-center">
+          Connect on Socials
+        </h3>
         {/* <p className="text-gray-300 mb-8">
           Want to collaborate or chat? Reach out!
         </p> */}
         <div className="flex flex-wrap gap-3 justify-center items-center">
           <a
             // href="https://x.com/thegreyline12"
-            className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white"
+            className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white cursor-pointer"
           >
             Twitter/X
           </a>
           <a
-            // href="https://x.com/thegreyline12"
-            className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white"
+            href="https://www.instagram.com/heroes.pinnacleschools?igsh=b3V1ZnhpZjFkcHhu"
+            className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white cursor-pointer"
           >
             Instagram
           </a>
