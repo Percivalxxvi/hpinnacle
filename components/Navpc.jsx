@@ -19,7 +19,9 @@ const Navpc = ({page}) => {
             alt="heroes pinnacle schools"
           />
         </div>
-        <h1 className="text-[#3e7742] text-2xl pr-25 leading-6.5">Heroes Pinnacle Schools</h1>
+        <h1 className="text-[#3e7742] text-2xl pr-25 leading-6.5">
+          Heroes Pinnacle Schools
+        </h1>
       </div>
 
       <div className="flex items-center justify-center gap-2 md:gap-10 lg:gap-6 pr-10">
@@ -75,23 +77,6 @@ const Navpc = ({page}) => {
           Contact
         </Link>
         <Link
-          to={"/news"}
-          onMouseEnter={() => setMenu3(true)}
-          onMouseLeave={() => setMenu3(false)}
-          style={{
-            // backgroundColor: page === "news" ? "#3e7742" : "",
-            padding: page === "news" ? "5px 0 5px 0" : "",
-            color: page === "news" ? "gold" : "",
-            boxShadow:
-              page !== "news" && menu3 === true
-                ? "0 5px 1px #3e7742"
-                : "0 0 0 black",
-          }}
-          className="no-underline text-3xl text-[#3e7742] font-bold p-3 duration-300 "
-        >
-          News
-        </Link>
-        <Link
           to={"/events"}
           onMouseEnter={() => setMenu4(true)}
           onMouseLeave={() => setMenu4(false)}
@@ -107,6 +92,23 @@ const Navpc = ({page}) => {
           className="no-underline text-3xl text-[#3e7742] font-bold p-3 duration-300 "
         >
           Events
+        </Link>
+        <Link
+          to={"/news"}
+          onMouseEnter={() => setMenu3(true)}
+          onMouseLeave={() => setMenu3(false)}
+          style={{
+            // backgroundColor: page === "news" ? "#3e7742" : "",
+            padding: page === "news" ? "5px 0 5px 0" : "",
+            color: page === "news" ? "gold" : "",
+            boxShadow:
+              page !== "news" && menu3 === true
+                ? "0 5px 1px #3e7742"
+                : "0 0 0 black",
+          }}
+          className="no-underline text-3xl text-[#3e7742] font-bold p-3 duration-300 "
+        >
+          News
         </Link>
         {/* <Link className='navpc-pgs1'>????????????</Link> */}
       </div>

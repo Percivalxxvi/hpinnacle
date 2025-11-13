@@ -2,7 +2,6 @@ import React,{ useState, useEffect } from 'react'
 import "../src/App.css"
 import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
-import school2 from '../src/assets/school2.jpg'
 import Footer from '../components/Footer'
 
 import "slick-carousel/slick/slick.css";
@@ -40,18 +39,31 @@ const Home = () => {
       <Homeslide />
       <div className="mobhero">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum
-          ex erat. Proin ut ex eu mauris hendrerit dictum fringilla id dolor.
-          Sed felis lorem, cursus vitae dictum vitae, ornare non felis. Maecenas
-          at nulla id lacus rutrum dictum sit amet non nunc. Phasellus efficitur
-          vulputate orci, vel dignissim risus viverra vitae. Integer quis tempor
-          libero. Nulla facilisi. Suspendisse vel arcu ac lectus tempor
-          ultrices. Quisque blandit imperdiet eros eu rutrum. Etiam et turpis et
-          ligula molestie rhoncus id in leo. Maecenas euismod mattis dapibus.
-          Nullam at tortor non urna efficitur dignissim vel nec erat. Fusce
-          rhoncus cursus eros vel blandit. Vestibulum sapien mi, condimentum sed
-          odio at, condimentum imperdiet lorem. Vestibulum nec egestas leo, et
-          ultrices elit.
+          Welcome to Heroes Pinnacle Schools, At Heroes Pinnacle Schools, we are
+          committed to nurturing young minds and shaping future leaders, with
+          God as a guide. Our institution offers a seamless educational journey
+          from Nursery through Primary and Secondary School, providing a
+          holistic learning environment that emphasizes academic excellence,
+          personal growth, and moral development. <br />• Nursery School: Our
+          Nursery Program is designed to spark curiosity, creativity, and a love
+          for learning in our youngest learners. With a safe and stimulating
+          environment, our experienced educators focus on early childhood
+          development, fostering social skills, emotional growth, and
+          foundational literacy and numeracy skills. <br />• Primary School: In
+          our Primary School, students build on the foundation laid in nursery.
+          We combine a structured curriculum with engaging activities that
+          encourage critical thinking, problem-solving, and collaborative
+          learning. Our goal is to cultivate confident, independent, and
+          responsible learners who are prepared for the challenges of higher
+          education. <br />• Secondary School: At Heroes Pinnacle Secondary
+          School, we focus on preparing students for both academic and life
+          success. With a comprehensive curriculum that includes sciences, arts,
+          technology,
+          {/*  and extracurricular activities, our students are equipped with the skills, */}
+          discipline, and knowledge needed to excel in their chosen paths. We
+          emphasize leadership, ethical values, and innovation, ensuring our
+          graduates are well-rounded individuals ready to make a positive impact
+          in the world.
         </p>
       </div>
 

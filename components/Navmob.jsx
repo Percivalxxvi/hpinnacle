@@ -18,7 +18,6 @@ const Navmob = () => {
           />
         </div>
         <div className="ham1">
-         
           <Hamburger
             toggled={isOpen}
             toggle={setOpen}
@@ -51,11 +50,11 @@ const Navmob = () => {
         <Link to="/contact" className="navmob-pgs1">
           Contact
         </Link>
-        <Link to="/news" className="navmob-pgs1">
-          News
-        </Link>
         <Link to="/events" className="navmob-pgs1">
           Events
+        </Link>
+        <Link to="/news" className="navmob-pgs1">
+          News
         </Link>
       </div>
     </div>
