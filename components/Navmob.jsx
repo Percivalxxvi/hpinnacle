@@ -56,6 +56,9 @@ const Navmob = () => {
         <Link to="/news" className="navmob-pgs1">
           News
         </Link>
+        <Link to="/gallery" className="navmob-pgs1">
+          Gallery
+        </Link>
       </div>
     </div>
   );

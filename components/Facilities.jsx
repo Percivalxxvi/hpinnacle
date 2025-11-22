@@ -15,7 +15,7 @@ const Facilities = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     pauseOnHover: false
   };
   return (
@@ -26,10 +26,10 @@ const Facilities = () => {
             <h1 className="lg:text-5xl text-3xl text-black h-[10%]">
               Computer Lab
             </h1>
-            <div className="lg:h-[90%] lg:w-[100%] h-[80%] w-90 flex items-center justify-center bg-amber-500">
+            <div className="lg:h-[90%] lg:w-[100%] h-[80%] w-90 flex items-center justify-center">
               <img
-                className="h-4/4 lg:h-4/4 lg:w-4/4 w-[100%] object-cover"
-                src="https://images.unsplash.com/photo-1719159381981-1327b22aff9b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjBsYWJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600"
+                className="h-4/4 lg:h-4/4 lg:w-4/4 w-[100%] lg:object-contain object-cover"
+                src="https://ik.imagekit.io/percival26/IMG-20251122-WA0074_1_.jpg?updatedAt=1763803417978"
                 alt="heroes pinnacle schools"
               />
             </div>
@@ -41,10 +41,10 @@ const Facilities = () => {
             <h1 className="lg:text-5xl text-3xl text-black h-[10%]">
               Science Lab
             </h1>
-            <div className="lg:h-[90%] lg:w-[100%] h-[80%] w-90 flex items-center justify-center bg-amber-500">
+            <div className="lg:h-[90%] lg:w-[100%] h-[80%] w-90 flex items-center justify-center">
               <img
-                className="h-[100%] lg:h-4/4 lg:w-4/4 w-[100%] object-cover"
-                src="https://ik.imagekit.io/percival26/laboratory.JPG?updatedAt=1761572865437"
+                className="h-[100%] lg:h-4/4 lg:w-4/4 w-[100%] lg:object-contain object-cover"
+                src="https://ik.imagekit.io/percival26/laboratory%20(1).jpg?updatedAt=1763802829960"
                 alt="heroes pinnacle schools"
               />
             </div>
@@ -56,7 +56,7 @@ const Facilities = () => {
             <h1 className="lg:text-5xl text-3xl text-black h-[10%]">Library</h1>
             <div className="lg:h-[90%] lg:w-[100%] h-[80%] w-90 flex items-center justify-center bg-amber-500">
               <img
-                className="h-4/4 lg:h-4/4 lg:w-4/4 w-[100%] object-cover"
+                className="h-4/4 lg:h-4/4 lg:w-4/4 w-[100%] lg:object-contain object-cover"
                 src="https://images.unsplash.com/photo-1623078424463-473cf34e3ecf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNjaG9vbCUyMGJ1aWxkaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
                 alt="heroes pinnacle schools"
               />

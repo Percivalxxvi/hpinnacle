@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-3 lg:flex lg:flex-col lg:gap[10px]">
+    <div className="flex flex-col gap-3 lg:flex lg:flex-col lg:gap[10px] border-2 border-[gold]">
       <Navmob />
       <div className="flex lg:hidden h-20"></div>
       <Navpc page="about" />
@@ -18,7 +18,7 @@ const About = () => {
           <div className="lg:h-100 lg:w-200">
             <img
               className="lg:h-4/4 object-cover lg:w-200 border-t-2 border-b-2 border-[gold]"
-              src={school1}
+              src="https://ik.imagekit.io/percival26/schooledge.JPG?updatedAt=1761574725206"
               alt="heroes pinnacle schools"
             />
           </div>
@@ -43,7 +43,7 @@ const About = () => {
           <div className="lg:h-100 lg:w-150 h-70 w-full bg-amber-400">
             <img
               className="lg:h-4/4 lg:object-cover lg:w-150 h-70 w-full object-cover border-b-2 border-t-2 border-[gold]"
-              src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBvcnRyYWl0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
+              src="https://ik.imagekit.io/percival26/IMG-20251120-WA0130_1_.jpg?updatedAt=1763663656598"
               alt="heroes pinnacle schools"
             />
           </div>
@@ -74,7 +74,7 @@ const About = () => {
           </div>
           <div className="lg:h-100 lg:w-3/4 flex flex-col justify-evenly  h-100 w-full items-center">
             <h1 className="text-4xl lg:text-6xl lg:text-left lg:w-[95%] w-[95%] text-center mt-2">
-              About the Proprietor
+              About the Chairman
             </h1>
             <p className="text-justify lg:w-[95%] lg:text-lg w-[95%]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras

@@ -9,8 +9,6 @@ import mail from '../src/assets/mail.svg'
 import phone from '../src/assets/phone.svg'
 import mappin from '../src/assets/mappin.svg'
 
-import { Mail } from 'lucide-react'
-import { Hotel } from 'lucide-react'
 import Contactform from '../components/Contactform'
 import Totop from "../components/Totop";
 
@@ -24,7 +22,7 @@ const Contact = () => {
      setFormData({ ...formData, [e.target.name]: e.target.value });
    };
   return (
-    <div className="flex flex-col gap-2 bg-[#3e7742]">
+    <div className="flex flex-col gap-2 bg-[#3e7742] border-2 border-[gold]">
       <Navmob />
       <Navpc page="contact" />
       <div className="flex lg:hidden h-20"></div>
@@ -59,12 +57,16 @@ const Contact = () => {
         <div className="flex flex-wrap gap-3 justify-center items-center">
           <a
             // href="https://x.com/thegreyline12"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white cursor-pointer"
           >
             Twitter/X
           </a>
           <a
             href="https://www.instagram.com/heroes.pinnacleschools?igsh=b3V1ZnhpZjFkcHhu"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white cursor-pointer"
           >
             Instagram

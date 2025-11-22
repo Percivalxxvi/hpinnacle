@@ -6,7 +6,7 @@ import EventList from "../components/Eventslist";
 
 const Events = () => {
   return (
-    <div>
+    <div className="border-2 border-[gold]">
       <Navmob />
 
       {/* Mobile navbar spacing */}
@@ -15,7 +15,7 @@ const Events = () => {
       <Navpc page="events" />
 
       <div className="flex flex-col items-center justify-center h-screen w-full bg-[#3e7742] lg:h-fit">
-        <EventList/>
+        <EventList />
       </div>
 
       <Footer />

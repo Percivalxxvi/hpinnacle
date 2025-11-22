@@ -8,7 +8,8 @@ const Navpc = ({page}) => {
     const [menu1,setMenu1]=useState(false)
     const [menu2,setMenu2]=useState(false)
     const [menu3,setMenu3]=useState(false)
-    const [menu4,setMenu4]=useState(false)
+    const [menu4, setMenu4] = useState(false)
+    const [menu5, setMenu5] = useState(false);
   return (
     <div className="hidden lg:flex h-25 items-center justify-between px-10 md:px-20 lg:px-32 py-4 sticky top-0 z-50 bg-[#EDEDEDCC] shadow-md border-b-3 border-[gold]">
       <div className="flex items-center justify-center h-25 w-100 gap-3">
@@ -31,7 +32,7 @@ const Navpc = ({page}) => {
           onMouseLeave={() => setMenu(false)}
           style={{
             // backgroundColor: page === "home" ? "#3e7742" : "",
-            padding: page === "home" ? "5px 0 5px 0" : "",
+            // padding: page === "home" ? "5px 0 5px 0" : "",
             color: page === "home" ? "gold" : "",
             boxShadow:
               page !== "home" && menu === true
@@ -48,7 +49,7 @@ const Navpc = ({page}) => {
           onMouseLeave={() => setMenu1(false)}
           style={{
             // backgroundColor: page === "about" ? "#3e7742" : "",
-            padding: page === "about" ? "5px 0 5px 0" : "",
+            // padding: page === "about" ? "5px 0 5px 0" : "",
             color: page === "about" ? "gold" : "",
             boxShadow:
               page !== "about" && menu1 === true
@@ -65,7 +66,7 @@ const Navpc = ({page}) => {
           onMouseLeave={() => setMenu2(false)}
           style={{
             // backgroundColor: page === "contact" ? "#3e7742" : "",
-            padding: page === "contact" ? "5px 0 5px 0" : "",
+            // padding: page === "contact" ? "5px 0 5px 0" : "",
             color: page === "contact" ? "gold" : "",
             boxShadow:
               page !== "contact" && menu2 === true
@@ -82,7 +83,7 @@ const Navpc = ({page}) => {
           onMouseLeave={() => setMenu4(false)}
           style={{
             // backgroundColor: page === "events" ? "#3e7742" : "",
-            padding: page === "events" ? "5px 0 5px 0" : "",
+            // padding: page === "events" ? "5px 0 5px 0" : "",
             color: page === "events" ? "gold" : "",
             boxShadow:
               page !== "events" && menu4 === true
@@ -99,7 +100,7 @@ const Navpc = ({page}) => {
           onMouseLeave={() => setMenu3(false)}
           style={{
             // backgroundColor: page === "news" ? "#3e7742" : "",
-            padding: page === "news" ? "5px 0 5px 0" : "",
+            // padding: page === "news" ? "5px 0 5px 0" : "",
             color: page === "news" ? "gold" : "",
             boxShadow:
               page !== "news" && menu3 === true
@@ -109,6 +110,23 @@ const Navpc = ({page}) => {
           className="no-underline text-3xl text-[#3e7742] font-bold p-3 duration-300 "
         >
           News
+        </Link>
+        <Link
+          to={"/gallery"}
+          onMouseEnter={() => setMenu5(true)}
+          onMouseLeave={() => setMenu5(false)}
+          style={{
+            // backgroundColor: page === "news" ? "#3e7742" : "",
+            // padding: page === "gallery" ? "5px 0 5px 0" : "",
+            color: page === "gallery" ? "gold" : "",
+            boxShadow:
+              page !== "gallery" && menu5 === true
+                ? "0 5px 1px #3e7742"
+                : "0 0 0 black",
+          }}
+          className="no-underline text-3xl text-[#3e7742] font-bold p-3 duration-300 "
+        >
+          Gallery
         </Link>
         {/* <Link className='navpc-pgs1'>????????????</Link> */}
       </div>

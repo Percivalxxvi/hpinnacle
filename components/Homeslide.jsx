@@ -84,7 +84,7 @@ const Homeslide = () => {
           <div>
             <div
               style={{
-                background: `url("https://ik.imagekit.io/percival26/schooledge2.JPG?updatedAt=1761575182226")`,
+                background: `url("https://ik.imagekit.io/percival26/IMG-20251122-WA0080_1_.jpg?updatedAt=1763804626550")`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 backgroundPosition: "center center",

@@ -3,11 +3,13 @@ import React from "react";
 const EventList = () => {
   //Define events here
   const events = [
-    { date: new Date(2025, 10, 12), title: "Examinations Begin" },
-    { date: new Date(2025, 10, 12), title: "Examinations Ends" },
+    { date: new Date(2025, 11, 2), title: "Examinations Begin" },
+    { date: new Date(2025, 11, 5), title: "Examinations Ends" },
+    { date: new Date(2025, 11, 10), title: "Christmas Carol / End of Term" },
     { date: new Date(2025, 11, 24), title: "Christmas Eve" },
     { date: new Date(2025, 11, 25), title: "Christmas Day" },
     { date: new Date(2025, 11, 26), title: "Boxing Day" },
+    { date: new Date(2026, 0, 5), title: "Resumption Day" },
   ];
 
   return (
@@ -23,10 +25,10 @@ const EventList = () => {
               key={index}
               className="border border-gray-200 rounded-lg p-4 bg-gray-50 hover:bg-green-50 transition"
             >
-              <p className="text-sm text-gray-500">
+              <p className="text-sm font-semibold text-gray-500">
                 {event.date.toDateString()}
               </p>
-              <h2 className="text-lg font-semibold text-gray-800">
+              <h2 className="text-lg font-bold text-gray-800">
                 {event.title}
               </h2>
             </li>

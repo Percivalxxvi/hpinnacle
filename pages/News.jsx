@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const News = () => {
   return (
-    <div>
+    <div className="border-2 border-[gold]">
       <Navmob />
 
       {/* Mobile navbar spacing */}

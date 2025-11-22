@@ -5,6 +5,7 @@ import About from '../pages/About.jsx'
 import Contact from '../pages/Contact.jsx'
 import News from '../pages/News.jsx'
 import Events from '../pages/Events.jsx'
+import Gallery from '../pages/Gallery.jsx'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
           <Route path='about' element={<About/>}/>
           <Route path='contact' element={<Contact/>}/>
           <Route path='news' element={<News/>}/>
-          <Route path='events' element={<Events/>}/>
+          <Route path='events' element={<Events />} />
+          <Route path='gallery' element={<Gallery/>}/>
         </Routes>
       </Router>
   )

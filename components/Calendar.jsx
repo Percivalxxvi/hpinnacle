@@ -42,7 +42,7 @@
 //       return (
 //         <div
 //           key={idx}
-//           className={`flex items-center justify-center rounded-lg cursor-pointer font-medium h-14 sm:h-16 md:h-20 transition 
+//           className={`flex items-center justify-center rounded-lg cursor-pointer font-medium h-14 sm:h-16 md:h-20 transition
 //             ${isToday ? "border-2 border-green-700" : ""}
 //             ${hasEvent ? "bg-green-100" : "bg-gray-100 hover:bg-green-50"}
 //           `}
@@ -62,21 +62,21 @@
 //   return (
 //     <div
 //       className="
-//         w-[95%] 
-//         sm:w-[90%] 
-//         md:w-[85%] 
-//         lg:w-[80%] 
+//         w-[95%]
+//         sm:w-[90%]
+//         md:w-[85%]
+//         lg:w-[80%]
 //         xl:w-[70%]
-//         bg-white 
-//         rounded-xl 
-//         shadow-xl 
-//         p-4 
-//         sm:p-6 
-//         md:p-8 
-//         font-sans 
+//         bg-white
+//         rounded-xl
+//         shadow-xl
+//         p-4
+//         sm:p-6
+//         md:p-8
+//         font-sans
 //         min-h-[80vh]
-//         flex 
-//         flex-col 
+//         flex
+//         flex-col
 //         justify-between
 //       "
 //     >

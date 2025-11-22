@@ -3,7 +3,6 @@ import "../src/App.css"
 import Navpc from '../components/Navpc'
 import Navmob from '../components/Navmob'
 import Footer from '../components/Footer'
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Homeslide from '../components/Homeslide'
@@ -143,10 +142,10 @@ const Home = () => {
           <p className="text-[18px] lg:text-[15px] text-justify lg:w-[95%] mb-1">
             Academic excellence at Heroes Pinnacle Schools is rooted in the
             conviction that every learner has the potential to rise to the
-            “pinnacle” of their abilities. This commitment means that students
+            “pinnacle” of their aspirations. This commitment means that students
             are not just taught facts, but are guided to think deeply, create
             meaning, and apply knowledge to real-world challenges. At the same
-            time, Heroes Pinnacle Schools fosters God fearing character,
+            time, Heroes Pinnacle Schools foster God fearing character,
             responsibility and global readiness — so that academic mastery goes
             hand in hand with personal growth.
           </p>
