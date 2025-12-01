@@ -8,13 +8,11 @@ const Events = () => {
   return (
     <div className="border-2 border-[gold]">
       <Navmob />
-
-      {/* Mobile navbar spacing */}
       <div className="flex lg:hidden h-20"></div>
 
       <Navpc page="events" />
 
-      <div className="flex flex-col items-center justify-center h-screen w-full bg-[#3e7742] lg:h-fit">
+      <div className="flex flex-col items-center justify-center  w-full bg-[#3e7742] lg:h-fit h-fit">
         <EventList />
       </div>
 

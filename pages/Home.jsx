@@ -1,35 +1,15 @@
-import React,{ useState, useEffect } from 'react'
-import "../src/App.css"
-import Navpc from '../components/Navpc'
-import Navmob from '../components/Navmob'
-import Footer from '../components/Footer'
+import React, { useState, useEffect } from "react";
+import "../src/App.css";
+import Navpc from "../components/Navpc";
+import Navmob from "../components/Navmob";
+import Footer from "../components/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Homeslide from '../components/Homeslide'
-import Facilities from '../components/Facilities'
+import Homeslide from "../components/Homeslide";
+import Facilities from "../components/Facilities";
 import Totop from "../components/Totop";
 
-
 const Home = () => {
-  const images = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPjY2BmRH4G1Tu2kPScbhExHPNoVw6tO8FQ&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1hsT6DLYHtSRxBysrLfnUP1cM1eqsrbWzQ&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrw_6IbimmhEjmSp1X3vOJfLFOo1fJhuOB3w&s",
-  ];
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const settings = {
-    dots: false,
-    fade: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    waitForAnimate: false,
-    arrows: false,
-    autoplay:true
-  };
-
   return (
     <div className="flex flex-col gap-2 bg-gray-300 border-2 border-[gold]">
       <Navmob />
@@ -190,13 +170,13 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="h-fit lg:h-150 border-b-2 border-t-2 border-[gold] lg:mb-5">
+      <div className="h-fit lg:h-150 lg:mb-5">
         <Facilities />
       </div>
       <Totop />
       <Footer />
     </div>
   );
-}
+};
 
-export default Home
+export default Home;

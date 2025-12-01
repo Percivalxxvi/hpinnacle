@@ -3,9 +3,6 @@ import './Homeslide.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-import library from '../src/assets/library.jpg'
-import classkids from '../src/assets/classkids.jpg'
 import TypewriterLoop from '../components/Typewriterhome'
 
 const Homeslide = () => {

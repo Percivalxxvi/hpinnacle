@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import "../components/Navpc.css"
 import { Link } from 'react-router-dom'
-import logo2 from '../src/assets/logo2.png'
 
 const Navpc = ({page}) => {
     const [menu,setMenu]=useState(false)
@@ -11,11 +10,12 @@ const Navpc = ({page}) => {
     const [menu4, setMenu4] = useState(false)
     const [menu5, setMenu5] = useState(false);
   return (
-    <div className="hidden lg:flex h-25 items-center justify-between px-10 md:px-20 lg:px-32 py-4 sticky top-0 z-50 bg-[#EDEDEDCC] shadow-md border-b-3 border-[gold]">
-      <div className="flex items-center justify-center h-25 w-100 gap-3">
-        <div className="flex items-center justify-center h-35 w-28 md:h-16 md:w-36 lg:h-4/4 lg:w-38 p-1 rounded-md">
+    <div className="hidden lg:flex h-18 items-center justify-between px-10 md:px-20 lg:px-32 py-4 sticky top-0 z-50 bg-[#EDEDEDCC] shadow-md border-b-3 border-[gold]">
+      <div className="flex items-center justify-center h-25 w-100">
+        <div className="flex items-center justify-center h-4/4 w-28 md:h-16 md:w-36 lg:h-4/4 lg:w-38 p-3 rounded-md">
           <img
-            className="h-4/4 w-4/4 object-contain"
+            onClick={() => window.location.href = "/"}
+            className="h-4/4 w-4/4 object-contain cursor-pointer"
             src="https://ik.imagekit.io/percival26/schoollogo.png?updatedAt=1761578087139"
             alt="heroes pinnacle schools"
           />
@@ -25,21 +25,19 @@ const Navpc = ({page}) => {
         </h1>
       </div>
 
-      <div className="flex items-center justify-center gap-2 md:gap-10 lg:gap-6 pr-10">
+      <div className="flex items-center justify-between gap-5 md:gap-10 lg:gap-6 pr-10">
         <Link
           to={"/"}
           onMouseEnter={() => setMenu(true)}
           onMouseLeave={() => setMenu(false)}
           style={{
-            // backgroundColor: page === "home" ? "#3e7742" : "",
-            // padding: page === "home" ? "5px 0 5px 0" : "",
             color: page === "home" ? "gold" : "",
             boxShadow:
               page !== "home" && menu === true
-                ? "0 5px 1px #3e7742"
+                ? "0 5px 0 #3e7742"
                 : "0 0 0 black",
           }}
-          className="no-underline text-3xl text-[#3e7742] font-bold p-3 duration-300"
+          className="no-underline text-2xl text-[#3e7742] font-bold py-3 duration-300"
         >
           Home
         </Link>
@@ -48,15 +46,13 @@ const Navpc = ({page}) => {
           onMouseEnter={() => setMenu1(true)}
           onMouseLeave={() => setMenu1(false)}
           style={{
-            // backgroundColor: page === "about" ? "#3e7742" : "",
-            // padding: page === "about" ? "5px 0 5px 0" : "",
             color: page === "about" ? "gold" : "",
             boxShadow:
               page !== "about" && menu1 === true
-                ? "0 5px 1px #3e7742"
+                ? "0 5px 0 #3e7742"
                 : "0 0 0 black",
           }}
-          className="no-underline text-3xl text-[#3e7742] font-bold p-3 duration-300 "
+          className="no-underline text-2xl text-[#3e7742] font-bold py-3 duration-300 "
         >
           About
         </Link>
@@ -65,49 +61,43 @@ const Navpc = ({page}) => {
           onMouseEnter={() => setMenu2(true)}
           onMouseLeave={() => setMenu2(false)}
           style={{
-            // backgroundColor: page === "contact" ? "#3e7742" : "",
-            // padding: page === "contact" ? "5px 0 5px 0" : "",
             color: page === "contact" ? "gold" : "",
             boxShadow:
               page !== "contact" && menu2 === true
-                ? "0 5px 1px #3e7742"
+                ? "0 5px 0 #3e7742"
                 : "0 0 0 black",
           }}
-          className="no-underline text-3xl text-[#3e7742] font-bold p-3 duration-300 "
+          className="no-underline text-2xl text-[#3e7742] font-bold py-3 duration-300 "
         >
           Contact
         </Link>
         <Link
           to={"/events"}
-          onMouseEnter={() => setMenu4(true)}
-          onMouseLeave={() => setMenu4(false)}
+          onMouseEnter={() => setMenu3(true)}
+          onMouseLeave={() => setMenu3(false)}
           style={{
-            // backgroundColor: page === "events" ? "#3e7742" : "",
-            // padding: page === "events" ? "5px 0 5px 0" : "",
             color: page === "events" ? "gold" : "",
             boxShadow:
-              page !== "events" && menu4 === true
-                ? "0 5px 1px #3e7742"
+              page !== "events" && menu3 === true
+                ? "0 5px 0 #3e7742"
                 : "0 0 0 black",
           }}
-          className="no-underline text-3xl text-[#3e7742] font-bold p-3 duration-300 "
+          className="no-underline text-2xl text-[#3e7742] font-bold py-3 duration-300 "
         >
           Events
         </Link>
         <Link
           to={"/news"}
-          onMouseEnter={() => setMenu3(true)}
-          onMouseLeave={() => setMenu3(false)}
+          onMouseEnter={() => setMenu4(true)}
+          onMouseLeave={() => setMenu4(false)}
           style={{
-            // backgroundColor: page === "news" ? "#3e7742" : "",
-            // padding: page === "news" ? "5px 0 5px 0" : "",
             color: page === "news" ? "gold" : "",
             boxShadow:
-              page !== "news" && menu3 === true
-                ? "0 5px 1px #3e7742"
+              page !== "news" && menu4 === true
+                ? "0 5px 0 #3e7742"
                 : "0 0 0 black",
           }}
-          className="no-underline text-3xl text-[#3e7742] font-bold p-3 duration-300 "
+          className="no-underline text-2xl text-[#3e7742] font-bold py-3 duration-300 "
         >
           News
         </Link>
@@ -116,19 +106,16 @@ const Navpc = ({page}) => {
           onMouseEnter={() => setMenu5(true)}
           onMouseLeave={() => setMenu5(false)}
           style={{
-            // backgroundColor: page === "news" ? "#3e7742" : "",
-            // padding: page === "gallery" ? "5px 0 5px 0" : "",
             color: page === "gallery" ? "gold" : "",
             boxShadow:
               page !== "gallery" && menu5 === true
-                ? "0 5px 1px #3e7742"
+                ? "0 5px 0 #3e7742"
                 : "0 0 0 black",
           }}
-          className="no-underline text-3xl text-[#3e7742] font-bold p-3 duration-300 "
+          className="no-underline text-2xl text-[#3e7742] font-bold py-3 duration-300 "
         >
           Gallery
         </Link>
-        {/* <Link className='navpc-pgs1'>????????????</Link> */}
       </div>
     </div>
   );

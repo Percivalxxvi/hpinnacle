@@ -99,7 +99,7 @@ const Contactform = ({ title = "Contact Us" }) => {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full h-10 bg-[gold] text-white font-semibold rounded-md hover:bg-[darkgoldenrod] transition duration-300 disabled:opacity-60 active:bg-yellow-800"
+          className="w-full h-10 bg-[gold] text-[#3e7742] font-semibold rounded-md hover:bg-[darkgoldenrod] transition duration-300 disabled:opacity-60 active:bg-yellow-800 cursor-pointer"
         >
           {isSubmitting ? "Sending..." : "Send Message"}
         </button>

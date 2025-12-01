@@ -1,26 +1,15 @@
 import React, { useState } from "react";
-import './Contact.css'
-import Navpc from '../components/Navpc'
-import Navmob from '../components/Navmob'
-import Footer from '../components/Footer'
-import Cnct from '../components/Cnct'
-
-import mail from '../src/assets/mail.svg'
-import phone from '../src/assets/phone.svg'
-import mappin from '../src/assets/mappin.svg'
-
-import Contactform from '../components/Contactform'
+import "./Contact.css";
+import Navpc from "../components/Navpc";
+import Navmob from "../components/Navmob";
+import Footer from "../components/Footer";
+import Cnct from "../components/Cnct";
+import Contactform from "../components/Contactform";
 import Totop from "../components/Totop";
+import phone from "../src/assets/phone.svg";
+import mappin from "../src/assets/mappin.svg";
 
 const Contact = () => {
-   const [formData, setFormData] = useState({
-      name: "",
-      email: "",
-      message: "",
-    });
-   const handleChange = (e) => {
-     setFormData({ ...formData, [e.target.name]: e.target.value });
-   };
   return (
     <div className="flex flex-col gap-2 bg-[#3e7742] border-2 border-[gold]">
       <Navmob />
@@ -43,7 +32,6 @@ const Contact = () => {
                 "Plot 5, Wonerland Community, Opp Redemption Camp, Estate 15, Ogun State"
               }
             />
-            {/* <Cnct image={mail} txt={"Email"} txt2={"heroespinnacleschools@gmail.com"} /> */}
           </div>
         </div>
       </div>
@@ -51,24 +39,31 @@ const Contact = () => {
         <h3 className="text-4xl mt-2 text-[gold] text-center">
           Connect on Socials
         </h3>
-        {/* <p className="text-gray-300 mb-8">
-          Want to collaborate or chat? Reach out!
-        </p> */}
         <div className="flex flex-wrap gap-3 justify-center items-center">
           <a
-            // href="https://x.com/thegreyline12"
+            href="https://x.com/HeroesPinnacle"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white cursor-pointer"
+            className="flex flex-col items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white cursor-pointer"
           >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+              alt="Twitter Logo"
+              width="30"
+            ></img>
             Twitter/X
           </a>
           <a
             href="https://www.instagram.com/heroes.pinnacleschools?igsh=b3V1ZnhpZjFkcHhu"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center h-10 w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white cursor-pointer"
+            className="flex flex-col items-center justify-center border-2 border-[gold] text-[gold] px-6 py-3 text-center w-30 rounded hover:border-2 hover:border-white transition hover:text-white active:bg-black active:text-white cursor-pointer"
           >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+              alt="Instagram Logo"
+              width="30"
+            ></img>
             Instagram
           </a>
         </div>
@@ -80,6 +75,6 @@ const Contact = () => {
       <Footer />
     </div>
   );
-}
+};
 
-export default Contact
+export default Contact;

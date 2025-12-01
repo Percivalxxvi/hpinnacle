@@ -1,18 +1,17 @@
-import React from 'react'
-import { useState } from 'react'
-import "./Navmob.css"
-import { Sling as Hamburger } from 'hamburger-react'
-import { Link } from 'react-router-dom'
-import logo2 from '../src/assets/logo2.png'
-
+import React from "react";
+import { useState } from "react";
+import "./Navmob.css";
+import { Sling as Hamburger } from "hamburger-react";
+import { Link } from "react-router-dom";
 
 const Navmob = () => {
-    const [isOpen, setOpen] = useState(false)
+  const [isOpen, setOpen] = useState(false);
   return (
     <div className="flex lg:hidden flex-col items-center justify-between bg-[#EDEDEDCC] w-full shadow-md border-b-3 border-[gold] fixed top-0 z-999">
       <div className="ham border-b pl-5 pr-5">
         <div className="navmob1-logo">
           <img
+            onClick={() => (window.location.href = "/")}
             src="https://ik.imagekit.io/percival26/schoollogo.png?updatedAt=1761578087139"
             alt="heroes pinnacle schools"
           />
@@ -30,16 +29,13 @@ const Navmob = () => {
         </div>
       </div>
       <div
-        className={`
-                    navmob-pgs flex flex-col
-                    
-                    overflow-hidden
-                    ${
-                      isOpen === true
-                        ? "max-h-96 opacity-100 transition-all duration-2500 ease-out"
-                        : "max-h-0 opacity-0 transition-all duration-700 ease-out"
-                    }
-                `}
+        className={`navmob-pgs flex flex-col overflow-hidden
+            ${
+              isOpen === true
+                ? "max-h-96 opacity-100 transition-all duration-2500 ease-out"
+                : "max-h-0 opacity-0 transition-all duration-700 ease-out"
+            }
+        `}
       >
         <Link to="/" className="navmob-pgs1">
           Home
@@ -62,6 +58,6 @@ const Navmob = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navmob
+export default Navmob;
