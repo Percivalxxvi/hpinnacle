@@ -1,6 +1,9 @@
-import React from 'react'
-import Navpc from '../components/Navpc';
-import Navmob from '../components/Navmob';
+import React from "react";
+import Navpc from "../components/Navpc";
+import Navmob from "../components/Navmob";
+import DropdownGallery from "../components/DropdownGallery";
+import Footer from "../components/Footer";
+import Totop from "../components/Totop";
 
 const Gallery = () => {
   return (
@@ -36,7 +39,7 @@ const Gallery = () => {
             alt="heroes pinnacle schools"
           />
         </div>
-        <div className="lg:h-100 bg-amber-300 flex gap-1 lg:flex-row flex-col">
+        <div className="lg:h-100 bg-amber-300 flex gap-1 lg:flex-row flex-col border-b border-[#3e7742]">
           <img
             className="lg:h-full h-55 lg:w-2/4 object-cover"
             src="https://ik.imagekit.io/percival26/IMG-20251122-WA0074_1_.jpg?updatedAt=1763803417978"
@@ -48,15 +51,17 @@ const Gallery = () => {
             alt="errors pinnacle schools"
           />
         </div>
-        <div className="h-fit bg-amber-300">
-          <h1 className="text-4xl text-center mt-2 mb-2 font-bold text-[#3e7742]">
-            More Coming Soon...
+        {/* <div className="border-t-2 border-[#3e7742]">
+          <h1 className="text-4xl text-center mt-6 mb-2 font-bold text-[#3e7742] ">
+            Events
           </h1>
-        </div>
-        {/* <div className="h-100 bg-amber-600"></div> */}
+          <DropdownGallery />
+        </div> */}
       </div>
+      <Totop />
+      <Footer />
     </div>
   );
-}
+};
 
-export default Gallery
+export default Gallery;
