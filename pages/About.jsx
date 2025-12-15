@@ -52,8 +52,8 @@ const About = () => {
               alt="heroes pinnacle schools"
             />
           </div>
-          <div className="lg:h-100 lg:w-3/4 flex flex-col justify-evenly h-100 w-full items-center">
-            <h1 className="text-4xl lg:text-5xl lg:text-left lg:font-bold lg:w-[95%] w-[95%] text-center mt-2">
+          <div className="lg:h-100 lg:w-3/4 flex flex-col justify-evenly h-fit w-full items-center">
+            <h1 className="text-3xl lg:text-5xl lg:text-left lg:font-bold lg:w-[95%] w-[95%] text-center mt-2">
               About the Proprietress
             </h1>
             <p className="text-justify lg:w-[95%] lg:text-md w-[95%]">
@@ -86,8 +86,8 @@ const About = () => {
               alt="heroes pinnacle schools"
             />
           </div>
-          <div className="lg:h-100 lg:w-3/4 flex flex-col justify-evenly  h-100 w-full items-center">
-            <h1 className="text-4xl lg:text-5xl lg:text-left lg:font-bold lg:w-[95%] w-[95%] text-center mt-2">
+          <div className="lg:h-100 lg:w-3/4 flex flex-col justify-evenly h-fit w-full items-center">
+            <h1 className="text-3xl lg:text-5xl lg:text-left lg:font-bold lg:w-[95%] w-[95%] text-center mt-2">
               About the Chairman
             </h1>
             <p className="text-justify lg:w-[95%] lg:text-md w-[95%]">
