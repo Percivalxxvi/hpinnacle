@@ -114,6 +114,29 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="flex lg:flex-row flex-col justify-center items-center lg:h-50 gap-2">
+        <div className="lg:w-1/2 flex flex-col h-2/2 pt-5 border-2 border-[gold]">
+          <h1 className="text-4xl lg:text-5xl text-center font-semibold">
+            VISION
+          </h1>
+          <p className="text-center">
+            To be a leading institution that nurtures young minds into
+            confident, disciplined, and innovative leaders of tomorrow.
+          </p>
+        </div>
+        <div className="lg:w-1/2 flex flex-col h-2/2 pt-5 border-2 border-[gold]">
+          <h1 className="text-4xl lg:text-5xl text-center font-semibold">
+            MISSION
+          </h1>
+          <p className="text-center">
+            To provide quality education in a safe, stimulating, and
+            value-driven environment, empowering every child to achieve academic
+            excellence, develop strong character, and reach their full
+            potential.
+          </p>
+        </div>
+      </div>
+
       <div className="flex flex-col-reverse lg:flex-row lg:h-fit justify-center items-center border-2 border-[gold]">
         <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%] lg:h-fit lg:mb-0 mb-2 lg:mt-0 mt-2">
           <h1 className="text-4xl lg:text-5xl text-center font-semibold lg:mt-3.5">

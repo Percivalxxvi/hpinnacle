@@ -5,28 +5,28 @@ const DropdownGallery = () => {
   const [slideIndex, setSlideIndex] = useState({}); // track each dropdown’s slider index
 
     const data = [
-      {
-        title: "Photo Splash",
-        images: [
-          "https://ik.imagekit.io/percival26/laboratory.JPG?updatedAt=1761572865437",
-          "https://ik.imagekit.io/percival26/IMG-20251122-WA0076_1_.jpg?updatedAt=1763808855941",
-          "https://ik.imagekit.io/percival26/IMG-20251122-WA0075_1_.jpg?updatedAt=1763807164167",
-        ],
-      },
-      {
-        title: "1st Term Exams 2025",
-        images: [
-          "https://ik.imagekit.io/percival26/laboratory.JPG?updatedAt=1761572865437",
-          "https://ik.imagekit.io/percival26/IMG-20251122-WA0076_1_.jpg?updatedAt=1763808855941",
-          "https://ik.imagekit.io/percival26/IMG-20251122-WA0075_1_.jpg?updatedAt=1763807164167",
-        ],
-      },
+      // {
+      //   title: "Photo Splash",
+      //   images: [
+      //     "https://ik.imagekit.io/percival26/laboratory.JPG?updatedAt=1761572865437",
+      //     "https://ik.imagekit.io/percival26/IMG-20251122-WA0076_1_.jpg?updatedAt=1763808855941",
+      //     "https://ik.imagekit.io/percival26/IMG-20251122-WA0075_1_.jpg?updatedAt=1763807164167",
+      //   ],
+      // },
+      // {
+      //   title: "1st Term Exams 2025",
+      //   images: [
+      //     "https://ik.imagekit.io/percival26/laboratory.JPG?updatedAt=1761572865437",
+      //     "https://ik.imagekit.io/percival26/IMG-20251122-WA0076_1_.jpg?updatedAt=1763808855941",
+      //     "https://ik.imagekit.io/percival26/IMG-20251122-WA0075_1_.jpg?updatedAt=1763807164167",
+      //   ],
+      // },
       {
         title: "Christmas Carol 2025",
         images: [
-          "https://ik.imagekit.io/percival26/laboratory.JPG?updatedAt=1761572865437",
-          "https://ik.imagekit.io/percival26/IMG-20251122-WA0076_1_.jpg?updatedAt=1763808855941",
-          "https://ik.imagekit.io/percival26/IMG-20251122-WA0075_1_.jpg?updatedAt=1763807164167",
+          "https://ik.imagekit.io/percival26/christmascarol25-1.jpg?updatedAt=1765793997018",
+          "https://ik.imagekit.io/percival26/christmascarol25-3.jpg?updatedAt=1765794254422",
+          "https://ik.imagekit.io/percival26/christmascarol25-2.jpg?updatedAt=1765794150283",
         ],
       },
       // {
@@ -72,7 +72,7 @@ const DropdownGallery = () => {
   };
 
   return (
-    <div className="w-full mx-auto mt-6 px space-y-2">
+    <div className="w-full mx-auto mt-1 px space-y-2">
       {data.map((item, index) => {
         const activeSlide = slideIndex[index] ?? 0;
 

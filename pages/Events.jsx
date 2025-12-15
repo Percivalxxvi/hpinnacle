@@ -12,7 +12,7 @@ const Events = () => {
 
       <Navpc page="events" />
 
-      <div className="flex flex-col items-center justify-center  w-full bg-[#3e7742] lg:h-fit h-fit">
+      <div className="flex flex-col items-center justify-center  w-full lg:h-fit h-fit">
         <EventList />
       </div>
 
