@@ -1,0 +1,18 @@
+export const events = [
+  { date: "2025-12-02", title: "Examinations Begin" },
+  { date: "2025-12-05", title: "Examinations Ends" },
+  { date: "2025-12-10", title: "Christmas Carol / End of Term" },
+  { date: "2025-12-24", title: "Christmas Eve" },
+  { date: "2025-12-25", title: "Christmas Day" },
+  { date: "2025-12-26", title: "Boxing Day" },
+  { date: "2026-01-01", title: "New Year" },
+  { date: "2026-01-05", title: "School Resumption Day" },
+  { date: "2026-04-03", title: "Good Friday" },
+  { date: "2026-04-06", title: "Easter Monday" },
+  { date: "2026-05-01", title: "Worker's Day" },
+  { date: "2026-05-27", title: "Children's Day" },
+  { date: "2026-07-12", title: "Democracy Day" },
+//   { date: "2026-09-01", title: "Independence Day" },
+  { date: "2026-10-01", title: "Independence Day" },
+  { date: "2026-12-25", title: "Christmas Day" },
+];

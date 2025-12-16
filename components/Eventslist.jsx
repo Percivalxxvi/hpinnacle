@@ -1,41 +1,37 @@
 import React, { useState } from "react";
 import Footer from "./Footer";
+import { events } from "../data/eventsdata"; // ✅ import data
 
 const EventList = () => {
-  const events = [
-    { date: new Date(2025, 11, 2), title: "Examinations Begin" },
-    { date: new Date(2025, 11, 5), title: "Examinations Ends" },
-    { date: new Date(2025, 11, 10), title: "Christmas Carol / End of Term" },
-    { date: new Date(2025, 11, 24), title: "Christmas Eve" },
-    { date: new Date(2025, 11, 25), title: "Christmas Day" },
-    { date: new Date(2025, 11, 26), title: "Boxing Day" },
-    { date: new Date(2026, 0, 1), title: "New Year" },
-    { date: new Date(2026, 0, 5), title: "Resumption Day" },
-  ];
+  // Convert string dates to Date objects
+  const parsedEvents = events.map((event) => ({
+    ...event,
+    date: new Date(event.date),
+  }));
 
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  const upcomingEvents = events.filter((event) => event.date >= today);
-  const pastEvents = events.filter((event) => event.date < today);
+  const upcomingEvents = parsedEvents.filter((event) => event.date >= today);
+  const pastEvents = parsedEvents.filter((event) => event.date < today);
 
   const [activePage, setActivePage] = useState("upcoming");
 
   return (
     <div className="w-full h-screen flex flex-col justify-between">
       <div className="bg-white w-full sm:w-4/5 md:w-3/4 lg:w-3/3 xl:w-2/2 rounded-lg overflow-hidden">
-        {/* Static Header */}
+        {/* Header */}
         <div className="sticky top-0 bg-white z-10 border-b">
           <div className="px-6 py-1">
             <h1 className="text-2xl sm:text-3xl font-bold text-center text-green-800">
-              Upcoming Events
+              School Events
             </h1>
             <p className="text-center text-sm text-gray-500">
               School Calendar & Activities
             </p>
           </div>
 
-          {/* Sub-Pages */}
+          {/* Tabs */}
           <div className="flex gap-2 px-4 pb-3 justify-center">
             <button
               onClick={() => setActivePage("upcoming")}
@@ -65,7 +61,7 @@ const EventList = () => {
           </div>
         </div>
 
-        {/* Scrollable Event List */}
+        {/* Event List */}
         <div className="max-h-[550px] overflow-y-auto px-6 py-4 space-y-2">
           {(activePage === "upcoming" ? upcomingEvents : pastEvents).map(
             (event, index) => {
@@ -96,11 +92,13 @@ const EventList = () => {
                       {event.date.getDate()}
                     </span>
                     <span className="text-xs uppercase">
-                      {event.date.toLocaleString("default", { month: "short" })}
+                      {event.date.toLocaleString("default", {
+                        month: "short",
+                      })}
                     </span>
                   </div>
 
-                  {/* Event Details */}
+                  {/* Event Info */}
                   <div className="flex-1">
                     <h2
                       className={`text-lg font-semibold ${
@@ -117,8 +115,8 @@ const EventList = () => {
           )}
         </div>
       </div>
-      {/* <Footer/> */}
-      </div>
+      {/* <Footer /> */}
+    </div>
   );
 };
 
