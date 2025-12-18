@@ -27,6 +27,12 @@ const DropdownGallery = () => {
           "https://ik.imagekit.io/percival26/christmascarol25-1.jpg?updatedAt=1765793997018",
           "https://ik.imagekit.io/percival26/christmascarol25-3.jpg?updatedAt=1765794254422",
           "https://ik.imagekit.io/percival26/christmascarol25-2.jpg?updatedAt=1765794150283",
+          "https://ik.imagekit.io/percival26/WhatsApp%20Image%202025-12-18%20at%208.00.52%20AM.jpeg?updatedAt=1766041730807",
+          "https://ik.imagekit.io/percival26/WhatsApp%20Image%202025-12-18%20at%208.00.53%20AM.jpeg?updatedAt=1766041832194",
+          "https://ik.imagekit.io/percival26/WhatsApp%20Image%202025-12-18%20at%208.00.54%20AM.jpeg?updatedAt=1766041940694",
+          "https://ik.imagekit.io/percival26/WhatsApp%20Image%202025-12-18%20at%208.02.58%20AM.jpeg?updatedAt=1766042001305",
+          "https://ik.imagekit.io/percival26/WhatsApp%20Image%202025-12-18%20at%208.02.59%20AM.jpeg?updatedAt=1766042043190",
+          "https://ik.imagekit.io/percival26/WhatsApp%20Image%202025-12-18%20at%208.00.53%20AM%20(1).jpeg?updatedAt=1766041910255",
         ],
       },
       // {
