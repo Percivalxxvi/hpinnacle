@@ -45,7 +45,7 @@ const About = () => {
         </div>
 
         <div className="h-fit w-full flex flex-col items-center justify-center lg:h-100 lg:flex-row-reverse border-2 border-[gold] lg:justify-between">
-          <div className="lg:h-100 lg:w-150 h-70 w-full bg-amber-400">
+          <div className="lg:h-100 lg:w-150 h-70 w-full bg-white">
             <img
               className="lg:h-4/4 lg:object-cover lg:w-150 h-70 w-full object-cover border-b-2 border-t-2 border-[gold]"
               src="https://ik.imagekit.io/percival26/IMG-20251120-WA0130_1_.jpg?updatedAt=1763663656598"
@@ -79,10 +79,10 @@ const About = () => {
         </div>
 
         <div className="h-fit w-full flex flex-col items-center justify-center lg:h-100 lg:flex-row lg:border-b-2 border-2 border-[gold] lg:justify-between">
-          <div className="lg:h-100 lg:w-150 h-70 w-full bg-amber-400">
+          <div className="lg:h-100 lg:w-150 h-70 w-full bg-[#c9cbcd]">
             <img
-              className="lg:h-4/4 lg:object-cover lg:w-150 h-70 w-full object-cover border-b-2 border-t-2 border-[gold]"
-              src="https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg2fHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600"
+              className="lg:h-4/4 lg:object-contain lg:w-150 h-70 w-full object-contain border-b-2 border-t-2 border-[gold]"
+              src="https://ik.imagekit.io/percival26/WhatsApp%20Image%202025-12-16%20at%206.14.54%20PM.1.jpeg?updatedAt=1765971308550"
               alt="heroes pinnacle schools"
             />
           </div>
@@ -91,24 +91,24 @@ const About = () => {
               About the Chairman
             </h1>
             <p className="text-justify lg:w-[95%] lg:text-md w-[95%]">
-              Pastor Ayodele Oladeji is a visionary leader and education enthusiast
-              committed to fostering excellence in learning and holistic child
-              development. With a wealth of experience in leadership and a deep
-              understanding of the transformative power of education, he
-              provides strategic guidance and oversight to ensure the school
-              achieves its mission and maintains the highest standards of
-              academic and moral excellence. <br className='' /> Under his stewardship,
-              Heroes Pinnacle Schools has grown into a thriving educational
-              institution where every child is encouraged to reach their full
-              potential. He believes in a balanced approach to education — one
-              that combines rigorous academics, character formation, and
-              co-curricular activities to develop well-rounded, responsible, and
-              innovative leaders of tomorrow. <br /> With a focus on quality,
-              discipline, and community engagement, the Chairman continues to
-              inspire teachers, students, and stakeholders alike, ensuring that
-              Heroes Pinnacle Schools remains a beacon of excellence in
-              education and a place where young heroes are nurtured to reach the
-              pinnacle of their abilities.
+              Pastor Ayodele Oladeji is a visionary leader and education
+              enthusiast committed to fostering excellence in learning and
+              holistic child development. With a wealth of experience in
+              leadership and a deep understanding of the transformative power of
+              education, he provides strategic guidance and oversight to ensure
+              the school achieves its mission and maintains the highest
+              standards of academic and moral excellence. <br className="" />{" "}
+              Under his stewardship, Heroes Pinnacle Schools has grown into a
+              thriving educational institution where every child is encouraged
+              to reach their full potential. He believes in a balanced approach
+              to education — one that combines rigorous academics, character
+              formation, and co-curricular activities to develop well-rounded,
+              responsible, and innovative leaders of tomorrow. <br /> With a
+              focus on quality, discipline, and community engagement, the
+              Chairman continues to inspire teachers, students, and stakeholders
+              alike, ensuring that Heroes Pinnacle Schools remains a beacon of
+              excellence in education and a place where young heroes are
+              nurtured to reach the pinnacle of their abilities.
             </p>
           </div>
         </div>
