@@ -72,7 +72,8 @@
     color: white;
     margin-left: 20px;
     margin-right: 20px;
-    font-weight: 500;
+    font-size: 15px;
+    /* font-weight: 100; */
 }
 .navmob1{
     display: none;

@@ -32,7 +32,7 @@ const Navmob = () => {
         className={`navmob-pgs flex flex-col overflow-hidden
             ${
               isOpen === true
-                ? "max-h-96 opacity-100 transition-all duration-2500 ease-out"
+                ? "max-h-96 opacity-100 transition-all duration-1800 ease-out"
                 : "max-h-0 opacity-0 transition-all duration-700 ease-out"
             }
         `}

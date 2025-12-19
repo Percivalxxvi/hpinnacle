@@ -33,6 +33,7 @@ const DropdownGallery = () => {
           "https://ik.imagekit.io/percival26/WhatsApp%20Image%202025-12-18%20at%208.02.58%20AM.jpeg?updatedAt=1766042001305",
           "https://ik.imagekit.io/percival26/WhatsApp%20Image%202025-12-18%20at%208.02.59%20AM.jpeg?updatedAt=1766042043190",
           "https://ik.imagekit.io/percival26/WhatsApp%20Image%202025-12-18%20at%208.00.53%20AM%20(1).jpeg?updatedAt=1766041910255",
+          "https://ik.imagekit.io/percival26/WhatsApp%20Image%202025-12-17%20at%2010.18.29%20PM.jpeg?updatedAt=1766083097932",
         ],
       },
       // {

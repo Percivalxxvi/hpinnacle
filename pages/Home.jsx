@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../src/App.css";
 import Navpc from "../components/Navpc";
 import Navmob from "../components/Navmob";
@@ -9,58 +9,73 @@ import Homeslide from "../components/Homeslide";
 import Facilities from "../components/Facilities";
 import Totop from "../components/Totop";
 
+import { motion } from "framer-motion";
+import { fadeUp } from "../utils/motionVariants";
+
+const stagger = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
+};
+
 const Home = () => {
   return (
-    <div className="flex flex-col gap-2 bg-gray-300 border-2 border-[gold]">
+    <motion.div
+      className="flex flex-col gap-2 bg-gray-300"
+      initial="hidden"
+      animate="visible"
+    >
       <Navmob />
       <div className="flex lg:hidden h-20"></div>
       <Navpc page="home" />
-      <Homeslide />
-      <div className="mobhero">
+
+      {/* HERO SLIDER */}
+      <motion.div variants={fadeUp}>
+        <Homeslide />
+      </motion.div>
+
+      {/* MOBILE HERO TEXT */}
+      <motion.section
+        className="mobhero"
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
         <p>
           Welcome to Heroes Pinnacle Schools, At Heroes Pinnacle Schools, we are
           committed to nurturing young minds and shaping future leaders, with
           God as a guide. Our institution offers a seamless educational journey
           from Nursery through Primary and Secondary School, providing a
           holistic learning environment that emphasizes academic excellence,
-          personal growth, and moral development. <br />• Nursery School: Our
-          Nursery Program is designed to spark curiosity, creativity, and a love
-          for learning in our youngest learners. With a safe and stimulating
-          environment, our experienced educators focus on early childhood
-          development, fostering social skills, emotional growth, and
-          foundational literacy and numeracy skills. <br />• Primary School: In
-          our Primary School, students build on the foundation laid in nursery.
-          We combine a structured curriculum with engaging activities that
-          encourage critical thinking, problem-solving, and collaborative
-          learning. Our goal is to cultivate confident, independent, and
-          responsible learners who are prepared for the challenges of higher
-          education. <br />• Secondary School: At Heroes Pinnacle Secondary
-          School, we focus on preparing students for both academic and life
-          success. With a comprehensive curriculum that includes sciences, arts,
-          technology,
-          {/*  and extracurricular activities, our students are equipped with the skills, */}
-          discipline, and knowledge needed to excel in their chosen paths. We
-          emphasize leadership, ethical values, and innovation, ensuring our
-          graduates are well-rounded individuals ready to make a positive impact
-          in the world.
+          personal growth, and moral development.
         </p>
-      </div>
+      </motion.section>
 
-      <div className="flex flex-col-reverse lg:flex-row justify-center items-center border-b-2 border-[gold]">
+      {/* WHY CHOOSE US */}
+      <motion.section
+        className="flex flex-col-reverse lg:flex-row justify-center items-center border-b-2 border-t-2 border-[gold]"
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
         <div className="flex flex-col lg:w-2/4 justify-center lg:items-center lg:justify-between w-[95%] lg:h-100 h-fit">
           <h1 className="text-4xl lg:text-5xl text-center font-semibold mt-3 lg:mt-0">
             WHY CHOOSE HEROES PINNACLE SCHOOLS?
           </h1>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-justify">
             At Heroes Pinnacle Schools, we place emphasis on purposeful
-            learning. This educational model offers your child numerous benefits
-            for growth and development:
+            learning...
           </p>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
-            • Individual Attention{" "}
+            • Individual Attention
           </p>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
-            • Critical Thinking{" "}
+            • Critical Thinking
           </p>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             • Values and Character Development
@@ -69,18 +84,90 @@ const Home = () => {
             • Strong sense of Community
           </p>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-left mb-2 lg:mb-0">
-            • Improved Grades{" "}
+            • Improved Grades
           </p>
         </div>
-        <div className="h-4/4 w-4/4 lg:w-2/4">
+
+        <motion.div
+          className="h-4/4 w-4/4 lg:w-2/4"
+          // whileHover={{ scale: 1.02 }}
+        >
           <img
             src="https://ik.imagekit.io/percival26/schoolfar.JPG?updatedAt=1761573302333"
             alt="heroes pinnacle schools"
           />
-        </div>
-      </div>
+        </motion.div>
+      </motion.section>
 
-      <div className="flex flex-col-reverse lg:flex-row-reverse justify-center items-center border-2 border-[gold]">
+      {/* SCHOOL CLASSES */}
+      <motion.section
+        variants={stagger}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="w-[95%] mx-auto grid lg:grid-cols-3 gap-4 py-4 border-y-2 border-[gold]"
+      >
+        {/* Nursery */}
+        <motion.div
+          variants={fadeUp}
+          whileHover={{ y: -6 }}
+          className="bg-gray-300 text-black backdrop-blur-sm p-6 rounded-xl border border-[gold] shadow-sm transition"
+        >
+          <h3 className="text-xl font-bold mb-3 text-center text-black">
+            Nursery School
+          </h3>
+          <p className="text-[17px] text-justify">
+            Our Nursery Program is designed to spark curiosity, creativity, and
+            a love for learning in our youngest learners. With a safe and
+            stimulating environment, our experienced educators focus on early
+            childhood development, fostering social skills, emotional growth,
+            and foundational literacy and numeracy skills.
+          </p>
+        </motion.div>
+
+        {/* Primary */}
+        <motion.div
+          variants={fadeUp}
+          whileHover={{ y: -6 }}
+          className="bg-gray-300 text-black p-6 rounded-xl border border-[gold] shadow-sm transition"
+        >
+          <h3 className="text-xl font-bold mb-3 text-center">Primary School</h3>
+          <p className="text-[17px] text-justify">
+            Students build on the strong foundation laid in Nursery through a
+            structured curriculum and engaging activities that promote critical
+            thinking, collaboration, and problem-solving. Our goal is to nurture
+            confident, independent, and responsible learners prepared for future
+            academic challenges.
+          </p>
+        </motion.div>
+
+        {/* Secondary */}
+        <motion.div
+          variants={fadeUp}
+          whileHover={{ y: -6 }}
+          className="bg-gray-300 text-black p-6 rounded-xl border border-[gold] shadow-sm transition"
+        >
+          <h3 className="text-xl font-bold mb-3 text-center">
+            Secondary School
+          </h3>
+          <p className="text-[17px] text-justify">
+            Our Secondary School prepares students for academic excellence and
+            life beyond the classroom. Through a comprehensive curriculum
+            covering sciences, arts, and technology, we instill discipline,
+            leadership, innovation, and ethical values—equipping students to
+            thrive in a rapidly changing world.
+          </p>
+        </motion.div>
+      </motion.section>
+
+      {/* UNIQUE STYLE */}
+      <motion.section
+        className="flex flex-col-reverse lg:flex-row-reverse justify-center items-center border-b-2 border-t-2 border-[gold]"
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
         <div className="flex flex-col lg:w-2/4 justify-center lg:items-center lg:justify-between w-[95%] lg:h-100 lg:mb-0 mb-2 lg:mt-0 mt-2">
           <h1 className="text-4xl lg:text-5xl text-center font-semibold">
             OUR UNIQUE STYLE
@@ -90,8 +177,7 @@ const Home = () => {
             education.
           </p>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
-            • God Factor - We have a mandate to raise Godly Seeds, Kingdom Army,
-            the Next True Heroes with the Spirit of Excellence
+            • God Factor
           </p>
           <p className="lg:text-[21px] text-md lg:w-[95%] text-left">
             • Excellent Teachers
@@ -106,15 +192,26 @@ const Home = () => {
             • Exciting Learning Environment
           </p>
         </div>
-        <div className="h-4/4 w-4/4 lg:w-2/4">
+
+        <motion.div
+          className="h-4/4 w-4/4 lg:w-2/4"
+          // whileHover={{ scale: 1.02 }}
+        >
           <img
             src="https://ik.imagekit.io/percival26/frontlow.JPG?updatedAt=1761585120087"
             alt="heroes pinnacle schools"
           />
-        </div>
-      </div>
+        </motion.div>
+      </motion.section>
 
-      <div className="flex lg:flex-row flex-col justify-center items-center lg:h-50 gap-2">
+      {/* VISION & MISSION */}
+      <motion.section
+        className="flex lg:flex-row flex-col justify-center items-center lg:h-50 gap-2"
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
         <div className="lg:w-1/2 flex flex-col h-2/2 pt-5 border-2 border-[gold]">
           <h1 className="text-4xl lg:text-5xl text-center font-semibold">
             VISION
@@ -124,25 +221,31 @@ const Home = () => {
             confident, disciplined, and innovative leaders of tomorrow.
           </p>
         </div>
+
         <div className="lg:w-1/2 flex flex-col h-2/2 pt-5 border-2 border-[gold]">
           <h1 className="text-4xl lg:text-5xl text-center font-semibold">
             MISSION
           </h1>
           <p className="text-center">
             To provide quality education in a safe, stimulating, and
-            value-driven environment, empowering every child to achieve academic
-            excellence, develop strong character, and reach their full
-            potential.
+            value-driven environment.
           </p>
         </div>
-      </div>
+      </motion.section>
 
-      <div className="flex flex-col-reverse lg:flex-row lg:h-fit justify-center items-center border-2 border-[gold]">
-        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%] lg:h-fit lg:mb-0 mb-2 lg:mt-0 mt-2">
-          <h1 className="text-4xl lg:text-5xl text-center font-semibold lg:mt-3.5">
+      {/* ACADEMIC EXCELLENCE */}
+      <motion.section
+        className="flex flex-col-reverse lg:flex-row lg:h-fit justify-center items-center border-b-2 border-t-2 border-[gold]"
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
+        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]">
+          <h1 className="text-4xl lg:text-5xl text-center font-semibold">
             Academic Excellence!
           </h1>
-          <p className="text-[18px] lg:text-[15px] text-justify lg:w-[95%] mb-1">
+          <p className="text-[18px] lg:text-[15px] text-justify lg:w-[95%]">
             Academic excellence at Heroes Pinnacle Schools is rooted in the
             conviction that every learner has the potential to rise to the
             “pinnacle” of their aspirations. This commitment means that students
@@ -156,9 +259,9 @@ const Home = () => {
             In this school community:{" "}
           </p>
           <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
-            • Teachers deliver a rigorous, well-structured curriculum aligned
-            with national and international standards, ensuring students excel
-            in exams and beyond.
+            • Teachers deliver a well-structured curriculum aligned with
+            international standards, ensuring students excel in exams and
+            beyond.
           </p>
           <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
             {" "}
@@ -168,37 +271,52 @@ const Home = () => {
           <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
             • The ethos of excellence is embedded not only in grades and
             results, but in habits: disciplined study, curiosity, perseverance
-            when challenges arise, collaboration, reflection and innovation.
+            when challenges arise, collaboration and innovation.
           </p>
           <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
             • Academic excellence at Heroes Pinnacle is also about preparing
             students to be responsible citizens and future leaders: able to
-            adapt, solve problems, and contribute positively to society.
+            solve problems, and contribute positively to society.
           </p>
         </div>
 
-        <div className="h-4/4 w-4/4 lg:w-2/4 lg:h-4/4">
+        <motion.div
+          className="h-4/4 w-4/4 lg:w-2/4"
+          // whileHover={{ scale: 1.02 }}
+        >
           <img
             src="https://ik.imagekit.io/percival26/clasroom1.JPG?updatedAt=1761585614181"
             alt="heroes pinnacle schools"
           />
-        </div>
-      </div>
+        </motion.div>
+      </motion.section>
 
-      <div className="flex flex-col justify-center items-center border-2 border-[gold]">
-        <div>
-          <h1 className="text-4xl lg:text-5xl text-center font-semibold lg:mt-[20px] border-b-2 border-[gold]">
-            OUR FACILITIES
-          </h1>
-        </div>
-      </div>
+      {/* FACILITIES */}
+      <motion.section
+        className="flex flex-col justify-center items-center border-2 border-[gold]"
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
+        <h1 className="text-4xl lg:text-5xl text-center font-semibold border-b-2 border-[gold]">
+          OUR FACILITIES
+        </h1>
+      </motion.section>
 
-      <div className="h-fit lg:h-150 lg:mb-5">
+      <motion.section
+        className="h-fit lg:h-150 lg:mb-5"
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+      >
         <Facilities />
-      </div>
+      </motion.section>
+
       <Totop />
       <Footer />
-    </div>
+    </motion.div>
   );
 };
 
