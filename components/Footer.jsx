@@ -8,8 +8,13 @@ const Footer = () => {
       <h1 className="text-[#3e7742]">© 2025 HEROES PINNACLE SCHOOLS.</h1>
       <p className="text-[#3e7742]">
         Powered by{" "}
-        <a className='cursor-pointer font-bold' href = {"https://greylinex.vercel.app/"}>
-          GreyLine Solutions
+        <a
+          className="cursor-pointer font-bold"
+          target="_blank"
+          rel="noopener noreferrer"
+          href={"https://greylinex.vercel.app/"}
+        >
+          AOD Interactive
         </a>{" "}
       </p>
     </div>
