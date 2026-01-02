@@ -216,7 +216,7 @@ const Home = () => {
           <h1 className="text-4xl lg:text-5xl text-center font-semibold">
             VISION
           </h1>
-          <p className="text-center">
+          <p className="text-center mx-5 lg:mb-0 mb-5">
             To be a leading institution that nurtures young minds into
             confident, disciplined, and innovative leaders of tomorrow.
           </p>
@@ -226,7 +226,7 @@ const Home = () => {
           <h1 className="text-4xl lg:text-5xl text-center font-semibold">
             MISSION
           </h1>
-          <p className="text-center">
+          <p className="text-center lg:mb-0 mb-5">
             To provide quality education in a safe, stimulating, and
             value-driven environment.
           </p>
@@ -258,22 +258,22 @@ const Home = () => {
           <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] font-semibold">
             In this school community:{" "}
           </p>
-          <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
+          <p className="text-[18px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0">
             • Teachers deliver a well-structured curriculum aligned with
             international standards, ensuring students excel in exams and
             beyond.
           </p>
-          <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
+          <p className="text-[18px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0">
             {" "}
             • Learners benefit from a supportive environment in which their
             individual strengths are identified, nurtured and stretched.
           </p>
-          <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
+          <p className="text-[18px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0">
             • The ethos of excellence is embedded not only in grades and
             results, but in habits: disciplined study, curiosity, perseverance
             when challenges arise, collaboration and innovation.
           </p>
-          <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] mt-1 indent-4 lg:mt-0">
+          <p className="text-[18px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0">
             • Academic excellence at Heroes Pinnacle is also about preparing
             students to be responsible citizens and future leaders: able to
             solve problems, and contribute positively to society.
