@@ -111,7 +111,7 @@ const Home = () => {
         <motion.div
           variants={fadeUp}
           whileHover={{ y: -6 }}
-          className="bg-gray-300 text-black backdrop-blur-sm p-6 rounded-xl border border-[gold] shadow-sm transition"
+          className="bg-gray-300 text-black backdrop-blur-sm p-4.5 rounded-xl border border-[gold] shadow-sm transition"
         >
           <h3 className="text-xl font-bold mb-3 text-center text-black">
             Nursery School
@@ -129,7 +129,7 @@ const Home = () => {
         <motion.div
           variants={fadeUp}
           whileHover={{ y: -6 }}
-          className="bg-gray-300 text-black p-6 rounded-xl border border-[gold] shadow-sm transition"
+          className="bg-gray-300 text-black p-4.5 rounded-xl border border-[gold] shadow-sm transition"
         >
           <h3 className="text-xl font-bold mb-3 text-center">Primary School</h3>
           <p className="text-[17px] text-justify">
@@ -145,7 +145,7 @@ const Home = () => {
         <motion.div
           variants={fadeUp}
           whileHover={{ y: -6 }}
-          className="bg-gray-300 text-black p-6 rounded-xl border border-[gold] shadow-sm transition"
+          className="bg-gray-300 text-black p-4.5 rounded-xl border border-[gold] shadow-sm transition"
         >
           <h3 className="text-xl font-bold mb-3 text-center">
             Secondary School
@@ -241,11 +241,11 @@ const Home = () => {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[95%]">
-          <h1 className="text-4xl lg:text-5xl text-center font-semibold">
+        <div className="flex flex-col lg:w-2/4 justify-center lg:items-center w-[90%] leading-5.5">
+          <h1 className="text-4xl lg:text-5xl text-center font-semibold lg:mt-0 mt-3">
             Academic Excellence!
           </h1>
-          <p className="text-[18px] lg:text-[15px] text-justify lg:w-[95%]">
+          <p className="text-[16px] lg:text-[15px] text-justify lg:w-[95%]">
             Academic excellence at Heroes Pinnacle Schools is rooted in the
             conviction that every learner has the potential to rise to the
             “pinnacle” of their aspirations. This commitment means that students
@@ -255,25 +255,25 @@ const Home = () => {
             responsibility and global readiness — so that academic mastery goes
             hand in hand with personal growth.
           </p>
-          <p className="text-[18px] lg:text-[15px] text-left lg:w-[95%] font-semibold">
+          <p className="text-[16px] lg:text-[15px] text-left lg:w-[95%] font-semibold">
             In this school community:{" "}
           </p>
-          <p className="text-[18px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0">
+          <p className="text-[16px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0">
             • Teachers deliver a well-structured curriculum aligned with
             international standards, ensuring students excel in exams and
             beyond.
           </p>
-          <p className="text-[18px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0">
+          <p className="text-[16px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0">
             {" "}
             • Learners benefit from a supportive environment in which their
             individual strengths are identified, nurtured and stretched.
           </p>
-          <p className="text-[18px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0">
+          <p className="text-[16px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0">
             • The ethos of excellence is embedded not only in grades and
             results, but in habits: disciplined study, curiosity, perseverance
             when challenges arise, collaboration and innovation.
           </p>
-          <p className="text-[18px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0">
+          <p className="text-[16px] lg:text-[15px] lg:text-left text-justify lg:w-[95%] mt-1 indent-4 lg:mt-0 mb-5 lg:mb-0">
             • Academic excellence at Heroes Pinnacle is also about preparing
             students to be responsible citizens and future leaders: able to
             solve problems, and contribute positively to society.
