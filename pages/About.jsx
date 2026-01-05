@@ -20,11 +20,11 @@ const About = () => {
               alt="heroes pinnacle schools"
             />
           </div>
-          <div className=" lg:h-100 lg:w-2/4 w-[95%] h-fit flex flex-col items-center justify-center gap-2">
+          <div className=" lg:h-100 lg:w-2/4 w-[95%] h-fit flex flex-col items-center justify-center lg:gap-2">
             <h1 className="text-4xl lg:text-5xl lg:text-left lg:font-bold lg:w-[95%] mt-2">
               About the School
             </h1>
-            <p className="text-justify lg:w-[95%] lg:text-md">
+            <p className="text-justify lg:w-[95%] lg:text-md leading-4.5 lg:leading-6 mb-2">
               Heroes Pinnacle Schools is a co-educational institution committed
               to raising confident, disciplined, and academically excellent
               learners. We provide quality education across Nursery, Primary,
@@ -56,7 +56,7 @@ const About = () => {
             <h1 className="text-3xl lg:text-5xl lg:text-left lg:font-bold lg:w-[95%] w-[95%] text-center mt-2">
               About the Proprietress
             </h1>
-            <p className="text-justify lg:w-[95%] lg:text-md w-[95%]">
+            <p className="text-justify lg:w-[95%] lg:text-md w-[95%] leading-5 lg:leading-6 mb-2">
               Mrs Ijeoma Oladeji, is a visionary educationist with a deep
               passion for nurturing young minds and building a strong foundation
               for future leaders. Her commitment to quality education, moral
@@ -90,7 +90,7 @@ const About = () => {
             <h1 className="text-3xl lg:text-5xl lg:text-left lg:font-bold lg:w-[95%] w-[95%] text-center mt-2">
               About the Chairman
             </h1>
-            <p className="text-justify lg:w-[95%] lg:text-md w-[95%]">
+            <p className="text-justify lg:w-[95%] lg:text-md w-[95%] leading-5 lg:leading-6 mb-2">
               Pastor Ayodele Oladeji is a visionary leader and education
               enthusiast committed to fostering excellence in learning and
               holistic child development. With a wealth of experience in
