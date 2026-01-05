@@ -7,15 +7,15 @@ import Totop from "../components/Totop";
 
 const Gallery = () => {
   return (
-    <div className="border-2 border-[gold]">
+    <div className="">
       <Navpc page="gallery" />
       <Navmob />
       <div className="flex lg:hidden h-18"></div>
-      <div className="flex flex-col gap-0.5 border border-[gold] bg-amber-300">
+      <div className="flex flex-col gap-0.5 bg-[#f0f0f0]">
         <h1 className="text-xl text-center font-bold text-[#3e7742]">
           Photo Splash
         </h1>
-        <div className="lg:h-65 bg-amber-300 flex gap-0.5 lg:flex-row flex-col">
+        <div className="lg:h-65 flex gap-0.5 lg:flex-row flex-col">
           <img
             className="lg:h-full h-55 lg:w-1/3 object-cover"
             src="https://ik.imagekit.io/percival26/IMG-20251122-WA0074_1_.jpg?updatedAt=1763803417978"
@@ -33,7 +33,7 @@ const Gallery = () => {
             alt="heroes pinnacle schools"
           />
         </div>
-        <div className="lg:h-65 bg-amber-300 flex gap-0.5 lg:flex-row flex-col">
+        <div className="lg:h-65 flex gap-0.5 lg:flex-row flex-col">
           <img
             className="lg:h-full h-55 lg:w-1/3 object-cover"
             src="https://ik.imagekit.io/percival26/IMG-20251122-WA0075_1_.jpg?updatedAt=1763807164167"
@@ -59,6 +59,7 @@ const Gallery = () => {
         </div>
       </div>
       <Totop />
+      <div className="lg:hidden bg-[#f0f0f0] h-10"></div>
       <Footer />
     </div>
   );

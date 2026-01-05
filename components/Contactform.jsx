@@ -46,16 +46,16 @@ const Contactform = ({ title = "Contact Us" }) => {
   
 
   return (
-    <div className="flex flex-col items-center justify-center bg-[#3e7742] w-[95%] h-fit mt-3 mb-3">
+    <div className="flex flex-col items-center justify-center bg-[#f0f0f0] w-full h-fit mt-3 mb-3">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col shadow-xl lg:w-fit w-4/4 items-center justify-center gap-2"
+        className="flex flex-col lg:w-fit w-4/4 items-center justify-center gap-2"
       >
-        <h2 className="text-4xl text-[gold] text-center">{title}</h2>
+        <h2 className="text-4xl text-black text-center">{title}</h2>
 
         {/* Name Field */}
-        <div className="lg:w-120 w-4/4">
-          <label className="block text-[gold] font-medium mb-2">Name</label>
+        <div className="lg:w-150 w-4/4">
+          <label className="block text-black font-medium mb-2">Name</label>
           <input
             type="text"
             name="name"
@@ -63,13 +63,13 @@ const Contactform = ({ title = "Contact Us" }) => {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full h-10 px-2 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[gold] bg-gray-200"
+            className="w-full h-10 px-2 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[#3e7742] bg-gray-200"
           />
         </div>
 
         {/* Email Field */}
-        <div className="mb-2 lg:w-120 w-4/4">
-          <label className="block text-[gold] font-medium mb-2">Email</label>
+        <div className="mb-2 lg:w-150 w-4/4">
+          <label className="block text-black font-medium mb-2">Email</label>
           <input
             type="email"
             name="email"
@@ -77,13 +77,13 @@ const Contactform = ({ title = "Contact Us" }) => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full h-10 px-2 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[gold] bg-gray-200"
+            className="w-full h-10 px-2 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[#3e7742] bg-gray-200"
           />
         </div>
 
         {/* Message Field */}
-        <div className="mb-2 lg:w-120 w-4/4">
-          <label className="block text-[gold] font-medium mb-2">Message</label>
+        <div className="mb-2 lg:w-150 w-4/4">
+          <label className="block text-black font-medium mb-2">Message</label>
           <textarea
             name="message"
             placeholder=" Write your message here..."
@@ -91,7 +91,7 @@ const Contactform = ({ title = "Contact Us" }) => {
             onChange={handleChange}
             rows="4"
             required
-            className="w-full h-50 px-2 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[gold] bg-gray-200"
+            className="w-full h-50 px-2 py-2 border border-gray-900 rounded-sm focus:outline-none focus:ring-2 focus:ring-[#3e7742] bg-gray-200"
           />
         </div>
 
@@ -99,7 +99,7 @@ const Contactform = ({ title = "Contact Us" }) => {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full h-10 bg-[gold] text-[#3e7742] font-semibold rounded-md hover:bg-[darkgoldenrod] transition duration-300 disabled:opacity-60 active:bg-yellow-800 cursor-pointer"
+          className="w-full h-10 bg-[#3e7742] text-white font-semibold rounded-md hover:bg-[#439e49] transition duration-300 disabled:opacity-60 active:bg-yellow-800 cursor-pointer"
         >
           {isSubmitting ? "Sending..." : "Send Message"}
         </button>
