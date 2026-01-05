@@ -60,7 +60,7 @@ const Contact = () => {
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              className="h-23 w-37 lg:w-40 bg-[#f0f0f0] hover:bg-[#3e7742] border border-black text-[#3e7742] hover:text-white font-semibold text-xl rounded-xl flex flex-col justify-center items-center gap-1 py-2 transition"
+              className="h-23 w-37 lg:w-40 bg-[#f0f0f0] hover:bg-[#3e7742] border border-black text-[#3e7742] hover:text-white active:text-white active:bg-[#3e7742] font-semibold text-xl rounded-xl flex flex-col justify-center items-center gap-1 py-2 transition"
             >
               <Icon size={30} />
               {label}

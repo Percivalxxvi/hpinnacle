@@ -46,7 +46,7 @@ const Contactform = ({ title = "Contact Us" }) => {
   
 
   return (
-    <div className="flex flex-col items-center justify-center bg-[#f0f0f0] w-full h-fit mt-3 mb-3">
+    <div className="flex flex-col items-center justify-center bg-[#f0f0f0] lg:w-full w-[95%] h-fit mt-3 mb-3">
       <form
         onSubmit={handleSubmit}
         className="flex flex-col lg:w-fit w-4/4 items-center justify-center gap-2"
