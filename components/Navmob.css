@@ -16,7 +16,7 @@
 }
 .navmob1-logo{
     height: 70px;
-    width: 80px;
+    width: 70px;
     /* margin-left: 70px; */
     /* background-color: blueviolet; */
     display: flex;
@@ -25,7 +25,7 @@
 }
 .navmob1-logo img{
     height: 90%;
-    width: 90%;
+    width:90%;
     object-fit: cover;
     border-radius: 20%;
 }

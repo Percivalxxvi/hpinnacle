@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className="flex flex-col gap-3 lg:flex lg:flex-col lg:gap[10px] border-2 border-[gold]">
       <Navmob />
-      <div className="flex lg:hidden h-20"></div>
+      <div className="flex lg:hidden h-15"></div>
       <Navpc page="about" />
       <div className="flex flex-col items-center justify-center lg:h-fit border-0 border-[gold] gap-2">
         <div className="h-fit w-full flex flex-col items-center justify-center lg:h-100 lg:flex-row border-2 border-[gold]">

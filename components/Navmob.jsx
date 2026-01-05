@@ -1,13 +1,13 @@
 import React from "react";
 import { useState } from "react";
 import "./Navmob.css";
-import { Sling as Hamburger } from "hamburger-react";
+import { Squash as Hamburger } from "hamburger-react";
 import { Link } from "react-router-dom";
 
 const Navmob = () => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className="flex lg:hidden flex-col items-center justify-between bg-[#EDEDEDCC] w-full h-18 shadow-md border-b-3 border-[gold] fixed top-0 z-999">
+    <div className="flex lg:hidden flex-col items-center justify-between bg-[#EDEDEDCC] w-full shadow-md border-b-3 border-[gold] fixed top-0 z-999">
       <div className="ham border-b pl-5 pr-5">
         <div className="navmob1-logo">
           <img

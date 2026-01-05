@@ -14,7 +14,7 @@ const Contact = () => {
     <div className="flex flex-col gap-2 bg-[#3e7742] border-2 border-[gold]">
       <Navmob />
       <Navpc page="contact" />
-      <div className="flex lg:hidden h-20"></div>
+      <div className="flex lg:hidden h-15"></div>
       <div className="flex flex-col items-center justify-center bg-[#3e7742] lg:h-fit h-fit border-2 border-[gold]">
         <div className="flex flex-col items-center justify-center text-[gold] gap-5 lg:w-[80%] text-center mt-3 mb-3">
           <h1 className="text-4xl mt-1">Get in Touch with Us</h1>

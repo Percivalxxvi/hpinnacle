@@ -8,7 +8,7 @@ const News = () => {
       <Navmob />
 
       {/* Mobile navbar spacing */}
-      <div className="flex lg:hidden h-20"></div>
+      <div className="flex lg:hidden h-18"></div>
 
       <Navpc page="news" />
 

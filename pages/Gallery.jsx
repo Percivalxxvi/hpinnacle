@@ -10,9 +10,9 @@ const Gallery = () => {
     <div className="border-2 border-[gold]">
       <Navpc page="gallery" />
       <Navmob />
-      <div className="flex lg:hidden h-20"></div>
+      <div className="flex lg:hidden h-18"></div>
       <div className="flex flex-col gap-0.5 border border-[gold] bg-amber-300">
-        <h1 className="text-xl text-center font-bold text-[#3e7742] h-5">
+        <h1 className="text-xl text-center font-bold text-[#3e7742]">
           Photo Splash
         </h1>
         <div className="lg:h-65 bg-amber-300 flex gap-0.5 lg:flex-row flex-col">

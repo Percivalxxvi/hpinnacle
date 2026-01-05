@@ -29,7 +29,7 @@ const Home = () => {
       animate="visible"
     >
       <Navmob />
-      <div className="flex lg:hidden h-20"></div>
+      <div className="flex lg:hidden h-15"></div>
       <Navpc page="home" />
 
       {/* HERO SLIDER */}
