@@ -19,7 +19,7 @@ const Homeslide = () => {
     pauseOnHover: false
   };
   return (
-    <div className="h-[40vh] md:h-[80vh] lg:h-[75vh] 2xl:[55vh]">
+    <div className="h-[35vh] md:h-[80vh] lg:h-[75vh] 2xl:[55vh]">
       <div className="h-[30vh] md:h-[70%]">
         <Slider {...settings}>
           <div>
@@ -30,7 +30,7 @@ const Homeslide = () => {
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
               }}
-              className="flex items-center justify-center h-[40vh] bg-red-600 w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
+              className="flex items-center justify-center h-[35vh] w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
             >
               <div
                 style={{
@@ -61,7 +61,7 @@ const Homeslide = () => {
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
               }}
-              className="flex items-center justify-center h-[40vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
+              className="flex items-center justify-center h-[35vh] w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
             >
               <div
                 style={{
@@ -86,7 +86,7 @@ const Homeslide = () => {
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
               }}
-              className="flex items-center justify-center h-[40vh] bg-yellow-300 w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
+              className="flex items-center justify-center h-[35vh] w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
             >
               <div
                 style={{
@@ -116,7 +116,7 @@ const Homeslide = () => {
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
               }}
-              className="flex items-center justify-center h-[40vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
+              className="flex items-center justify-center h-[35vh] bg-blue-600 w-[100%] md:h-[80vh] lg:h-[75vh] 2xl:[45vh]"
             >
               <div
                 style={{
