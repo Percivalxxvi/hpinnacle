@@ -16,9 +16,9 @@ const Cnct = ({ Icon, txt, txt2, txt3 }) => {
       </div>
 
       {/* Text */}
-      <div className="flex flex-col ml-4 mt-2 lg:mt-0">
+      <div className="flex flex-col mt-2 lg:mt-0 text-center items-center justify-center">
         <h2 className="font-semibold">{txt}</h2>
-        <h1 className="text-lg">{txt2}</h1>
+        <h1 className="text-lg0">{txt2}</h1>
         {txt3 && <h1 className="text-sm">{txt3}</h1>}
       </div>
     </div>
