@@ -1,0 +1,37 @@
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+    background: #3e7742d8;
+    /* border-radius: 10px; */
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Arrow buttons */
+::-webkit-scrollbar-button {
+    background-color: #000000;
+    color: #f1f1f1;
+    height: 10px;
+}
+
+/* Up arrow */
+::-webkit-scrollbar-button:vertical:start:decrement {
+    background-color: #000000;
+}
+
+/* Down arrow */
+::-webkit-scrollbar-button:vertical:end:increment {
+    background-color: #000000;
+}
