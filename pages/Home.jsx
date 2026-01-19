@@ -33,9 +33,9 @@ const Home = () => {
       <Navpc page="home" />
 
       {/* HERO SLIDER */}
-      <motion.div variants={fadeUp}>
+      <div>
         <Homeslide />
-      </motion.div>
+      </div>
 
       {/* MOBILE HERO TEXT */}
       <motion.section
@@ -88,10 +88,7 @@ const Home = () => {
           </p>
         </div>
 
-        <motion.div
-          className="h-4/4 w-4/4 lg:w-2/4"
-          // whileHover={{ scale: 1.02 }}
-        >
+        <motion.div className="h-4/4 w-4/4 lg:w-2/4">
           <img
             src="https://ik.imagekit.io/percival26/schoolfar.JPG?updatedAt=1761573302333"
             alt="heroes pinnacle schools"
@@ -110,7 +107,6 @@ const Home = () => {
         {/* Nursery */}
         <motion.div
           variants={fadeUp}
-          whileHover={{ y: -6 }}
           className="bg-gray-300 text-black backdrop-blur-sm p-4.5 rounded-xl border border-[gold] shadow-sm transition"
         >
           <h3 className="text-xl font-bold mb-3 text-center text-black">
@@ -128,7 +124,6 @@ const Home = () => {
         {/* Primary */}
         <motion.div
           variants={fadeUp}
-          whileHover={{ y: -6 }}
           className="bg-gray-300 text-black p-4.5 rounded-xl border border-[gold] shadow-sm transition"
         >
           <h3 className="text-xl font-bold mb-3 text-center">Primary School</h3>
@@ -144,7 +139,6 @@ const Home = () => {
         {/* Secondary */}
         <motion.div
           variants={fadeUp}
-          whileHover={{ y: -6 }}
           className="bg-gray-300 text-black p-4.5 rounded-xl border border-[gold] shadow-sm transition"
         >
           <h3 className="text-xl font-bold mb-3 text-center">
@@ -193,10 +187,7 @@ const Home = () => {
           </p>
         </div>
 
-        <motion.div
-          className="h-4/4 w-4/4 lg:w-2/4"
-          // whileHover={{ scale: 1.02 }}
-        >
+        <motion.div className="h-4/4 w-4/4 lg:w-2/4">
           <img
             src="https://ik.imagekit.io/percival26/frontlow.JPG?updatedAt=1761585120087"
             alt="heroes pinnacle schools"
